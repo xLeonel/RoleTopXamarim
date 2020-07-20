@@ -10,7 +10,7 @@ namespace RoleTopMobile
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new EstadioEvents();
         }
 
         protected override void OnStart()
