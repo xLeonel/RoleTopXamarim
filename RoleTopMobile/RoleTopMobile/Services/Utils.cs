@@ -16,7 +16,7 @@ namespace RoleTopMobile.Services
                 if (client == null)
                 {
                     client = new HttpClient();
-                    client.BaseAddress = new Uri("https://192.168.0.2:5000/api/");
+                    client.BaseAddress = new Uri("http://192.168.0.2:5000/api/");
                 }
 
                 return client;
