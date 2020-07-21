@@ -9,5 +9,6 @@
         <StackLayout BackgroundColor="Black">
             <Image Source="appstore.png" WidthRequest="200" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
         </StackLayout>
+       
     </ContentPage.Content>
 </ContentPage>

@@ -15,6 +15,14 @@ namespace RoleTopMobile.Views
         public Splash()
         {
             InitializeComponent();
+
+            Navigation();
+        }
+
+        private async void Navigation()
+        {
+            await Task.Delay(2500);
+            App.Current.MainPage = new NavigationPage(new LoginView());
         }
     }
 }

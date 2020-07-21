@@ -26,7 +26,7 @@ namespace RoleTopMobile.Views
 
         private void BtnCadastro_Clicked(object sender, EventArgs e)
         {
-            //Navigation.PushAsync(new CadastroView());
+            Navigation.PushAsync(new CadastroView());
         }
 
     }
