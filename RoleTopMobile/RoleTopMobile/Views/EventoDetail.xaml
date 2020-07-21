@@ -6,10 +6,15 @@
              mc:Ignorable="d"
              x:Class="RoleTopMobile.Views.EventoDetail">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="Black">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="baseline_arrow_back_24.xml" HeightRequest="50"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" />
+                <Image Source="appstore.png" HeightRequest="50"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="EndAndExpand" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

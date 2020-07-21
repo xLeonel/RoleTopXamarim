@@ -29,6 +29,12 @@ FrameLayout;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.An
 item;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+path;obj\Debug\90\res\drawable\baseline_arrow_back_24.xml
+path;obj\Debug\90\res\drawable\baseline_arrow_back_black.xml
+path;obj\Debug\90\res\drawable\baseline_arrow_downward_24.xml
+path;obj\Debug\90\res\drawable\baseline_arrow_forward_24.xml
+path;obj\Debug\90\res\drawable\baseline_arrow_upward_24.xml
+path;obj\Debug\90\res\drawable\baseline_arrow_upward_black.xml
 paths;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
@@ -43,4 +49,10 @@ translate;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Andr
 translate;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
 translate;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
 translate;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
+vector;obj\Debug\90\res\drawable\baseline_arrow_back_24.xml
+vector;obj\Debug\90\res\drawable\baseline_arrow_back_black.xml
+vector;obj\Debug\90\res\drawable\baseline_arrow_downward_24.xml
+vector;obj\Debug\90\res\drawable\baseline_arrow_forward_24.xml
+vector;obj\Debug\90\res\drawable\baseline_arrow_upward_24.xml
+vector;obj\Debug\90\res\drawable\baseline_arrow_upward_black.xml
 xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
