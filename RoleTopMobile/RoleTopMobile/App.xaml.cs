@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RoleTopMobile.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace RoleTopMobile
         {
             InitializeComponent();
 
-            MainPage = new EstadioEvents();
+            MainPage = new Splash();
         }
 
         protected override void OnStart()
