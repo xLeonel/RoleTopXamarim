@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("RoleTopMobile.Views.EventoDetail.xaml", "Views/EventoDetail.xaml", typeof(global::RoleTopMobile.Views.EventoDetail))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("RoleTopMobile.Views.ShowDetail.xaml", "Views/ShowDetail.xaml", typeof(global::RoleTopMobile.Views.ShowDetail))]
 
 namespace RoleTopMobile.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\EventoDetail.xaml")]
-    public partial class EventoDetail : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ShowDetail.xaml")]
+    public partial class ShowDetail : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EventoDetail));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ShowDetail));
         }
     }
 }

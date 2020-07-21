@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RoleTopMobile.Views.ShowDetail">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Padding="10">
+            <StackLayout Orientation="Horizontal" Margin="5">
+                <Image Source="baseline_arrow_back_white_36.png" HeightRequest="30"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="StartAndExpand" />
+                <Image Source="appstore.png" HeightRequest="50"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="EndAndExpand" />
+            </StackLayout>
+            <StackLayout>
+                <Image Source="Maracana_2014_e.jpg" Aspect="AspectFill" HeightRequest="200" Margin="0, 10, 0, 10"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="BAILÃO DA DZ7" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Label Text="DESCRIÇÃO DO BANCO" TextColor="White" FontSize="16"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Label Text="Número de pessoas: 15.000" TextColor="White" FontSize="16"/>
+                <Label Text="DATA: 21/08/2020" TextColor="White" FontSize="16"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

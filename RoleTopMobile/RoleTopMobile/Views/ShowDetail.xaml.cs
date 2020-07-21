@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace RoleTopMobile.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class EventoDetail : ContentPage
+    public partial class ShowDetail : ContentPage
     {
-        public EventoDetail()
+        public ShowDetail()
         {
             InitializeComponent();
         }

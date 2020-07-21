@@ -11,7 +11,7 @@ namespace RoleTopMobile
         {
             InitializeComponent();
 
-            MainPage = new EventoDetail();
+            MainPage = new ShowDetail();
         }
 
         protected override void OnStart()

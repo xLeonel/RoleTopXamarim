@@ -949,9 +949,7 @@ C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\app_sha
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\app_shared_libraries\x86\libxamarin-app.so
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\android\bin\classes.dex
-C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_BuildAdditionalResourcesCache.stamp
-C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_CleanIntermediateIfNeeded.stamp
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_CleanIntermediateIfNuGetsChange.stamp
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_CompileToDalvik.stamp
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_ConvertCustomView.stamp
@@ -987,3 +985,8 @@ C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\mip
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\mipmap-xxhdpi\baseline_arrow_upward_white_36.png
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_arrow_back_black.xml
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_arrow_upward_black.xml
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_arrow_downward_white_36.png
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_arrow_forward_white_36.png
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_arrow_upward_white_36.png
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_arrow_back_white_36.png
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\maracana_2014_e.jpg
