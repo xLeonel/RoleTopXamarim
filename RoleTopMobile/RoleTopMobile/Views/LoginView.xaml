@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RoleTopMobile.Views.LoginView">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+
+            <StackLayout Padding="20" VerticalOptions="StartAndExpand">
+                <Image Source="appstore.png" HorizontalOptions="CenterAndExpand" WidthRequest="150"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="CenterAndExpand">
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="E-mail:" TextColor="#F29F05" FontSize="Large"/>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Entry Placeholder="Insira o email" PlaceholderColor="Violet" ClearButtonVisibility="WhileEditing" WidthRequest="300"></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Senha:" TextColor="#F29F05" FontSize="Large"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Entry Placeholder="Insira a senha" PlaceholderColor="Violet" IsPassword="True" ClearButtonVisibility="WhileEditing" WidthRequest="300"></Entry>
+                </StackLayout>
+
+                <StackLayout Padding="0,30,0,0">
+                    <Button Text="ENTRAR" FontSize="Medium" BackgroundColor="#F29F05" TextColor="Black" Clicked="BtnLogin_Clicked" CornerRadius="17"></Button>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout VerticalOptions="EndAndExpand" Padding="40">
+                <Button Text="Não tem cadastro? Crie já!" FontSize="Small" TextColor="Violet" BackgroundColor="Transparent" Clicked="BtnCadastro_Clicked"></Button>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>  
