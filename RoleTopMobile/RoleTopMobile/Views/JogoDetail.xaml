@@ -15,24 +15,41 @@
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="EndAndExpand" />
             </StackLayout>
-            <StackLayout>
-                <Image Source="Maracana_2014_e.jpg" Aspect="AspectFill" HeightRequest="200" Margin="0, 10, 0, 10"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Bandeira Brasil" TextColor="White" FontSize="12" HorizontalOptions="StartAndExpand"/>
-                <Label Text="Bandeira Alemanha" TextColor="White" FontSize="12" HorizontalOptions="EndAndExpand"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="BRASIL" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
-                <Label Text="X" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
-                <Label Text="ALEMANHA" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="EndAndExpand"/>
-            </StackLayout>
-            <StackLayout VerticalOptions="CenterAndExpand">
-                <Label Text="DESCRIÇÃO DO BANCO" TextColor="White" FontSize="16"/>
-            </StackLayout>
-            <StackLayout VerticalOptions="EndAndExpand">
-                <Label Text="DATA: 21/08/2020" TextColor="White" FontSize="16"/>
-            </StackLayout>
+
+            <ListView
+                ItemsSource="{Binding Jogos}"
+                HasUnevenRows="true"
+                >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout VerticalOptions="CenterAndExpand">
+                                <StackLayout>
+                                    <Image Source="{Binding Evento.Estadio.imgSourceEstadio}" Aspect="AspectFill" HeightRequest="200" Margin="0, 10, 0, 10"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding SelecaoCasaNavigation.imgSourceSelecao}" HorizontalOptions="StartAndExpand"/>
+                                    <Image Source="{Binding SelecaoVisitanteNavigation.imgSourceSelecao}" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding SelecaoCasaNavigation.Nome}" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
+                                    <Label Text="X" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+                                    <Label Text="{Binding SelecaoVisitanteNavigation.Nome}" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="CenterAndExpand">
+                                    <Label Text="{Binding Descricao}" TextColor="White" FontSize="16"/>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal">
+                                    <Label Text="DATA: " TextColor="White" FontSize="16"/>
+                                    <Label Text="{Binding Data}" TextColor="White" FontSize="16"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

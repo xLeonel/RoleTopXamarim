@@ -12,7 +12,7 @@
     "Api_RoleTop": {
       "commandName": "Project",
       "launchBrowser": false,
-      "applicationUrl": "http://192.168.0.2:5000;http://seuipv4:5000",
+      "applicationUrl": "http://192.168.0.8:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

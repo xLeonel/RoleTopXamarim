@@ -8,6 +8,22 @@ namespace RoleTopMobile.Models
 {
     public class Estadio
     {
+        public ImageSource imgSourceEstadio
+        {
+            get
+            {
+                try
+                {
+                    return Utils.getImageSourceFromByteArray(foto);
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+            }
+        }
+
         public int id { get; set; }
         public int evento { get; set; }
         public string nome { get; set; }

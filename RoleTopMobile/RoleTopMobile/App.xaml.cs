@@ -11,7 +11,7 @@ namespace RoleTopMobile
         {
             InitializeComponent();
 
-            MainPage = new ConfiguracaoView();
+            MainPage = new JogoDetail();
         }
 
         protected override void OnStart()

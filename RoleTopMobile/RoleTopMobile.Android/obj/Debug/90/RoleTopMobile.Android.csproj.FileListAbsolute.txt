@@ -1540,3 +1540,4 @@ C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\De
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_arrow_upward_white_36.png
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_arrow_back_white_36.png
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\maracana_2014_e.jpg
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_CleanIntermediateIfNeeded.stamp

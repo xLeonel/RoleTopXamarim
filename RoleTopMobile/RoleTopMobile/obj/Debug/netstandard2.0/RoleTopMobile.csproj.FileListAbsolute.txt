@@ -75,3 +75,7 @@ C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\nets
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\ShowDetail.xaml.g.cs
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\Splash.xaml.g.cs
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\ConfiguracaoView.xaml.g.cs
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\ConfiguracaoView.xaml.g.cs
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\EventsDetail.xaml.g.cs
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs

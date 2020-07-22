@@ -19,7 +19,7 @@ namespace RoleTopMobile.Services
                 if (client == null)
                 {
                     client = new HttpClient();
-                    client.BaseAddress = new Uri("http://192.168.0.2:5000/api/");
+                    client.BaseAddress = new Uri("http://192.168.0.8:5000/api/");
                 }
 
                 return client;
@@ -31,8 +31,8 @@ namespace RoleTopMobile.Services
             try
             {
                 MemoryStream ms = new MemoryStream(imageArray);
-                ImageSource imageSource = ImageSource.FromStream(() => ms);
-                return imageSource;
+                ImageSource imgSource = ImageSource.FromStream(() => ms);
+                return imgSource;
             }
             catch (Exception)
             {

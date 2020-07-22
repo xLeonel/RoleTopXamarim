@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RoleTopMobile.Models;
+using RoleTopMobile.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +14,12 @@ namespace RoleTopMobile.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class JogoDetail : ContentPage
     {
+        JogoViewModel vm = new JogoViewModel();
         public JogoDetail()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+            this.BindingContext = vm;
         }
     }
 }
