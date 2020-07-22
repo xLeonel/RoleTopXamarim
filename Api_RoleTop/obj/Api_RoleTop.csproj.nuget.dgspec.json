@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj": {}
   },
   "projects": {
@@ -12,13 +13,26 @@
         "projectPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\obj\\",
+=======
+    "C:\\Senai\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj": {}
+  },
+  "projects": {
+    "C:\\Senai\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Senai\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
+        "projectName": "Api_RoleTop",
+        "projectPath": "C:\\Senai\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "C:\\Senai\\RoleTopXamarim\\Api_RoleTop\\obj\\",
+>>>>>>> 546ec251e01a485d8a6820ed2cf6c0e53a9ad3ca
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -82,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
