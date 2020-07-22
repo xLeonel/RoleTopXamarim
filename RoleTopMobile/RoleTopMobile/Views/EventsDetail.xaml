@@ -4,19 +4,20 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="RoleTopMobile.Views.EstadioEvents"
-             Title="Estadios">
+             x:Class="RoleTopMobile.Views.EventsDetail"
+             Title="Eventos">
     <ContentPage.Content>
+        
         <StackLayout BackgroundColor="Black">
-            <StackLayout Orientation="Horizontal" Margin="5">
+            <!--<StackLayout Orientation="Horizontal" Margin="5">
                 <Image Source="baseline_arrow_back_white_36.png" HeightRequest="30"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="StartAndExpand" />
-                <Label Text="Estádios" TextColor="#F29F05"  FontSize="30"></Label>
+                <Label Text="Eventos" TextColor="#F29F05"  FontSize="30"></Label>
                 <Image Source="appstore.png" HeightRequest="50"
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="EndAndExpand" />
-            </StackLayout>
+            </StackLayout>-->
 
             <!--APAGAR-->
             <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
@@ -25,7 +26,7 @@
                         <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
                 </Image>
-                <Label Text="Nome Estaido" FontSize="16" TextColor="Violet" HorizontalOptions="CenterAndExpand">
+                <Label Text="Nome Evento" FontSize="16" TextColor="Violet" HorizontalOptions="CenterAndExpand">
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
                     </Label.GestureRecognizers>
@@ -35,7 +36,7 @@
 
 
             <ListView
-                ItemsSource="{Binding Estadios}"
+                ItemsSource="{Binding Eventos}"
                 HasUnevenRows="true"
                 >
                 <ListView.ItemTemplate>
