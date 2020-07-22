@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="RoleTopMobile.Views.JogoDetail">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black" Padding="10">
+        <StackLayout BackgroundColor="#1F1B24" Padding="10">
             <StackLayout Orientation="Horizontal" Margin="5">
                 <Image Source="baseline_arrow_back_white_36.png" HeightRequest="30"
                     VerticalOptions="CenterAndExpand" 
@@ -15,24 +15,39 @@
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="EndAndExpand" />
             </StackLayout>
-            <StackLayout>
-                <Image Source="Maracana_2014_e.jpg" Aspect="AspectFill" HeightRequest="200" Margin="0, 10, 0, 10"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Bandeira Brasil" TextColor="White" FontSize="12" HorizontalOptions="StartAndExpand"/>
-                <Label Text="Bandeira Alemanha" TextColor="White" FontSize="12" HorizontalOptions="EndAndExpand"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="BRASIL" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
-                <Label Text="X" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
-                <Label Text="ALEMANHA" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="EndAndExpand"/>
-            </StackLayout>
-            <StackLayout VerticalOptions="CenterAndExpand">
-                <Label Text="DESCRIÇÃO DO BANCO" TextColor="White" FontSize="16"/>
-            </StackLayout>
-            <StackLayout VerticalOptions="EndAndExpand">
-                <Label Text="DATA: 21/08/2020" TextColor="White" FontSize="16"/>
-            </StackLayout>
+
+            <ListView
+                ItemsSource="{Binding Jogos}"
+                HasUnevenRows="true"
+                >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <StackLayout>
+                                    <Image Source="{Binding Jogo.Evento.Estadio.foto.imgSourceEstadio}" Aspect="AspectFill" HeightRequest="200" Margin="0, 10, 0, 10"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding SelecaoCasa.imgSourceSelecao}" HeightRequest="30" HorizontalOptions="StartAndExpand"/>
+                                    <Image Source="{Binding SelecaoVisitante.imgSourceSelecao}" HeightRequest="30" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding SelecaoCasaNavigation.Nome}" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
+                                    <Label Text="X" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+                                    <Label Text="{Binding SelecaoVisitanteNavigation.Nome}" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="CenterAndExpand">
+                                    <Label Text="DESCRIÇÃO DO BANCO" TextColor="White" FontSize="16"/>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="EndAndExpand">
+                                    <Label Text="DATA: 21/08/2020" TextColor="White" FontSize="16"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

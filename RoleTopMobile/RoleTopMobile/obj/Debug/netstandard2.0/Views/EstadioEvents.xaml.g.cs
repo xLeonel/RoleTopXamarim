@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("RoleTopMobile.Views.EstadioEvents.xaml", "Views/EstadioEvents.xaml", typeof(global::RoleTopMobile.EstadioEvents))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("RoleTopMobile.Views.EstadioEvents.xaml", "Views/EstadioEvents.xaml", typeof(global::RoleTopMobile.Views.EstadioEvents))]
 
-namespace RoleTopMobile {
+namespace RoleTopMobile.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\EstadioEvents.xaml")]
