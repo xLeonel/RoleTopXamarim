@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RoleTopMobile.Views.BuscaView"
+             Title="BuscaView">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Padding="10">
+            
+            <StackLayout>
+                <Image Source="appstore.png" 
+                       HeightRequest="120"
+                       Margin="10"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            
+            <StackLayout HeightRequest="100" Margin="30" Orientation="Horizontal">
+                <Label Text="Selecione sua UF e sua cidade para busca dos estádios e  seus eventos na região!"
+                       TextColor="White"
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       HorizontalOptions="Center">
+                </Label>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="CenterAndExpand">
+                
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Selecione a UF:" TextColor="#F29F05" FontSize="Large"/>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Entry Placeholder="Insira o Estado" PlaceholderColor="Violet" ClearButtonVisibility="WhileEditing" WidthRequest="300" ></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Padding="0,10,0,0">
+                    <Label Text="Cidade:" TextColor="#F29F05" FontSize="Large"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Entry Placeholder="Insira a Cidade" PlaceholderColor="Violet" IsPassword="True" ClearButtonVisibility="WhileEditing" WidthRequest="300"></Entry>
+                </StackLayout>
+
+                <StackLayout Padding="0,30,0,0">
+                    <Button Text="BUSCAR" FontSize="Large" FontAttributes="Bold" BackgroundColor="#F29F05" TextColor="Black" Clicked="BtnLogin_Clicked" CornerRadius="17"></Button>
+                </StackLayout>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
