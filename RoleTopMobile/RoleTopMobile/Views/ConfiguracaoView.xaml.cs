@@ -10,16 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace RoleTopMobile.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CadastroView : ContentPage
+    public partial class ConfiguracaoView : ContentPage
     {
-        public CadastroView()
+        public ConfiguracaoView()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
         }
+
         async void BtnCadastro_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Sucesso!", "Cadastro efetuado com sucesso", "Fazer login");
+            await DisplayAlert("Sucesso!", "Atualizado com sucesso", "Ok");
             Navigation.RemovePage(this);
             App.Current.MainPage = new NavigationPage(new LoginView());
         }

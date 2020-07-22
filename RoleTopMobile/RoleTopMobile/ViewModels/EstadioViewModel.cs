@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using Newtonsoft.Json;
+using Xamarin.Forms;
+using System.IO;
 
 namespace RoleTopMobile.ViewModels
 {
@@ -42,6 +44,12 @@ namespace RoleTopMobile.ViewModels
                     string json = response.Content.ReadAsStringAsync().Result;
 
                     Estadios = JsonConvert.DeserializeObject<List<Estadio>>(json);
+
+                    foreach (var item in Estadios)
+                    {
+                        item.fotoConvertida =  Utils.getImageSourceFromByteArray(item.foto);
+                    }
+
                 }
 
             }

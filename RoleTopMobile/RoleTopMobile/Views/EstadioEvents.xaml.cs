@@ -25,5 +25,11 @@ namespace RoleTopMobile.Views
         {
             Navigation.PushAsync(new EventsDetail());
         }
+
+        void OnClickMenu(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }

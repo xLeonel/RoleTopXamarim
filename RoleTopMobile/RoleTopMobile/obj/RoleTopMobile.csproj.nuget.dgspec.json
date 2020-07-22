@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj": {}
   },
   "projects": {
@@ -19,6 +20,26 @@
         ],
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
+        "projectName": "RoleTopMobile",
+        "projectPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
+        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "F:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> bf8885af6bb0b8e98591e4a1272498fa55c7ff9d
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

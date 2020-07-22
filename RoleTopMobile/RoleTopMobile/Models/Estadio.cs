@@ -34,6 +34,8 @@ namespace RoleTopMobile.Models
         public string cidade { get; set; }
         public string uf { get; set; }
         public object eventoNavigation { get; set; }
+        public ImageSource fotoConvertida { get; set; }
+        
     }
 }
 

@@ -7,19 +7,24 @@
              x:Class="RoleTopMobile.Views.EstadioEvents"
              Title="Estadios">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black">
-            <StackLayout Orientation="Horizontal" Margin="5">
+        <StackLayout BackgroundColor="#1F1B24">
+            
+            <StackLayout Orientation="Horizontal"  Padding="10">
                 <Image Source="baseline_arrow_back_white_36.png" HeightRequest="30"
                     VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="StartAndExpand" />
-                <Label Text="Estádios" TextColor="#F29F05"  FontSize="30"></Label>
+                    HorizontalOptions="StartAndExpand" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnClickMenu" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="Estádios" TextColor="#F29F05"  FontSize="35"></Label>
                 <Image Source="appstore.png" HeightRequest="50"
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="EndAndExpand" />
             </StackLayout>
 
             <!--APAGAR-->
-            <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
+            <!--<StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
                 <Image Source="Maracana_2014_e.jpg" HeightRequest="250">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
@@ -30,9 +35,10 @@
                         <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
                     </Label.GestureRecognizers>
                 </Label>
-            </StackLayout>
+            </StackLayout>-->
             <!--APAGAR-->
-
+            
+            
 
             <ListView
                 ItemsSource="{Binding Estadios}"
@@ -42,11 +48,12 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
-                                <Image Source="{Binding foto}" HeightRequest="250">
+                                <Image Source="{Binding fotoConvertida}" HeightRequest="250">
                                     <Image.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
                                     </Image.GestureRecognizers>
                                 </Image>
+                                    
                                 <Label Text="{Binding nome}" FontSize="16" TextColor="Violet" HorizontalOptions="CenterAndExpand">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>

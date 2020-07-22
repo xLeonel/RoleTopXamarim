@@ -26,11 +26,19 @@
                         <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
                 </Image>
-                <Label Text="Nome Evento" FontSize="16" TextColor="Violet" HorizontalOptions="CenterAndExpand">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
-                    </Label.GestureRecognizers>
-                </Label>
+                <StackLayout Spacing="10" Orientation="Horizontal">
+                    <Label Text="Nome Evento" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Label Text="Dia Evento" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                
             </StackLayout>
             <!--APAGAR-->
 
@@ -48,7 +56,12 @@
                                         <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
                                     </Image.GestureRecognizers>
                                 </Image>
-                                <Label Text="{Binding nome}" FontSize="16" TextColor="Violet" HorizontalOptions="CenterAndExpand">
+                                <Label Text="{Binding nome}" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
+                                    </Label.GestureRecognizers>
+                                </Label>
+                                <Label Text="{Binding eventoNavigation.dia}" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
                                     </Label.GestureRecognizers>
