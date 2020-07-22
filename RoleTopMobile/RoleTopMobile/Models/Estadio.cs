@@ -8,6 +8,10 @@ namespace RoleTopMobile.Models
 {
     public class Estadio
     {
+<<<<<<< HEAD
+=======
+
+>>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
         public ImageSource imgSourceEstadio
         {
             get

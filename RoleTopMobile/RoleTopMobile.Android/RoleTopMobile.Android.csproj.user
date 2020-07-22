@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< HEAD
     <SelectedDevice>Pixel_2_API_29</SelectedDevice>
+=======
+<<<<<<< HEAD
+    <SelectedDevice>Pixel_2_API_29</SelectedDevice>
+=======
+    <SelectedDevice>pixel_2_pie_9_0_-_api_28</SelectedDevice>
+>>>>>>> bf8885af6bb0b8e98591e4a1272498fa55c7ff9d
+>>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
     <DefaultDevice>pixel_2_pie_9_0_-_api_28</DefaultDevice>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
   </PropertyGroup>

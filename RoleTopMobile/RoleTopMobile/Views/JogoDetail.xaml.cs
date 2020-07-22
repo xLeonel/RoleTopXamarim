@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using RoleTopMobile.Models;
 using RoleTopMobile.ViewModels;
+=======
+﻿using RoleTopMobile.ViewModels;
+>>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +19,10 @@ namespace RoleTopMobile.Views
     public partial class JogoDetail : ContentPage
     {
         JogoViewModel vm = new JogoViewModel();
+<<<<<<< HEAD
+=======
+
+>>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
         public JogoDetail()
         {
             InitializeComponent();

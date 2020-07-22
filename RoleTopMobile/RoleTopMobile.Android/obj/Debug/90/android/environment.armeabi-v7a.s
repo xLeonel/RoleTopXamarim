@@ -78,15 +78,37 @@ mono_aot_mode_name:
 	.type	.L.str.7, %object
 .L.str.7:
 	.asciz	"XAMARIN_BUILD_ID"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
 	.size	.L.str.7, 17
 	.section	.rodata..L.str.8,"aMS",%progbits,1
 	.type	.L.str.8, %object
 .L.str.8:
+<<<<<<< HEAD
 	.asciz	"c8e669d7-e32c-4d17-bd65-b4bb226a7bd2"
+=======
+	.asciz	"d22469ab-5585-41d4-9cb6-adffd1991b8a"
+>>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
 	.size	.L.str.8, 37
 	.section	.rodata..L.str.9,"aMS",%progbits,1
 	.type	.L.str.9, %object
 .L.str.9:
+<<<<<<< HEAD
+=======
+=======
+	.size	.L.env.str.7, 17
+	.section	.rodata.env.str.8,"aMS",%progbits,1
+	.type	.L.env.str.8, %object
+.L.env.str.8:
+	.asciz	"1351b800-57ea-4c0b-b08d-d661a567955d"
+	.size	.L.env.str.8, 37
+	.section	.rodata.env.str.9,"aMS",%progbits,1
+	.type	.L.env.str.9, %object
+.L.env.str.9:
+>>>>>>> bf8885af6bb0b8e98591e4a1272498fa55c7ff9d
+>>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
 	.asciz	"XA_HTTP_CLIENT_HANDLER_TYPE"
 	.size	.L.str.9, 28
 	.section	.rodata..L.str.10,"aMS",%progbits,1

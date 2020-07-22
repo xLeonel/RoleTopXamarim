@@ -68,6 +68,11 @@ C:\Users\fic\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netsta
 C:\Users\fic\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.pdb
 C:\Users\fic\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
 C:\Users\fic\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
+<<<<<<< HEAD
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\EventsDetail.xaml.g.cs
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+=======
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\EventsDetail.xaml.g.cs
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\JogoDetail.xaml.g.cs
@@ -75,7 +80,11 @@ C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\nets
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\ShowDetail.xaml.g.cs
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\Splash.xaml.g.cs
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\ConfiguracaoView.xaml.g.cs
+<<<<<<< HEAD
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\ConfiguracaoView.xaml.g.cs
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\EventsDetail.xaml.g.cs
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+=======
+>>>>>>> bf8885af6bb0b8e98591e4a1272498fa55c7ff9d
+>>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
