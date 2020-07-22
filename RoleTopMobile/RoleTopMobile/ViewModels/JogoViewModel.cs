@@ -11,11 +11,8 @@ namespace RoleTopMobile.ViewModels
     public class JogoViewModel : BaseViewModel
     {
         private List<Jogo> _jogos;
-<<<<<<< HEAD
         private List<Selecao> _selecao;
         private List<Estadio> _estadio;
-=======
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
 
         public List<Jogo> Jogos
         {
@@ -26,7 +23,6 @@ namespace RoleTopMobile.ViewModels
                 OnPropertyChanged();
             }
         }
-<<<<<<< HEAD
         public List<Selecao> Selecaos
         {
             get { return _selecao; }
@@ -45,23 +41,16 @@ namespace RoleTopMobile.ViewModels
                 OnPropertyChanged();
             }
         }
-=======
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
 
         public JogoViewModel()
         {
             Jogos = new List<Jogo>();
-<<<<<<< HEAD
             Selecaos = new List<Selecao>();
             Estadios = new List<Estadio>();
 
             getJogos();
             getEstadios();
             getSelecaos();
-=======
-
-            getJogos();
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
         }
 
         private void getJogos()
@@ -90,7 +79,6 @@ namespace RoleTopMobile.ViewModels
                 Console.WriteLine("======================================================================");
             }
         }
-<<<<<<< HEAD
         private void getEstadios()
         {
             try
@@ -149,7 +137,5 @@ namespace RoleTopMobile.ViewModels
                 Console.WriteLine("======================================================================");
             }
         }
-=======
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
     }
 }

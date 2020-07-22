@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="RoleTopMobile.Views.JogoDetail">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#1F1B24" Padding="10">
+        <StackLayout BackgroundColor="Black" Padding="10">
             <StackLayout Orientation="Horizontal" Margin="5">
                 <Image Source="baseline_arrow_back_white_36.png" HeightRequest="30"
                     VerticalOptions="CenterAndExpand" 
@@ -23,7 +23,6 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-<<<<<<< HEAD
                             <StackLayout VerticalOptions="CenterAndExpand">
                                 <StackLayout>
                                     <Image Source="{Binding Evento.Estadio.imgSourceEstadio}" Aspect="AspectFill" HeightRequest="200" Margin="0, 10, 0, 10"/>
@@ -31,15 +30,6 @@
                                 <StackLayout Orientation="Horizontal">
                                     <Image Source="{Binding SelecaoCasaNavigation.imgSourceSelecao}" HorizontalOptions="StartAndExpand"/>
                                     <Image Source="{Binding SelecaoVisitanteNavigation.imgSourceSelecao}" HorizontalOptions="EndAndExpand"/>
-=======
-                            <StackLayout>
-                                <StackLayout>
-                                    <Image Source="{Binding Jogo.Evento.Estadio.foto.imgSourceEstadio}" Aspect="AspectFill" HeightRequest="200" Margin="0, 10, 0, 10"/>
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal">
-                                    <Image Source="{Binding SelecaoCasa.imgSourceSelecao}" HeightRequest="30" HorizontalOptions="StartAndExpand"/>
-                                    <Image Source="{Binding SelecaoVisitante.imgSourceSelecao}" HeightRequest="30" HorizontalOptions="EndAndExpand"/>
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
                                 </StackLayout>
                                 <StackLayout Orientation="Horizontal">
                                     <Label Text="{Binding SelecaoCasaNavigation.Nome}" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
@@ -47,18 +37,11 @@
                                     <Label Text="{Binding SelecaoVisitanteNavigation.Nome}" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="EndAndExpand"/>
                                 </StackLayout>
                                 <StackLayout VerticalOptions="CenterAndExpand">
-<<<<<<< HEAD
                                     <Label Text="{Binding Descricao}" TextColor="White" FontSize="16"/>
                                 </StackLayout>
                                 <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal">
                                     <Label Text="DATA: " TextColor="White" FontSize="16"/>
                                     <Label Text="{Binding Data}" TextColor="White" FontSize="16"/>
-=======
-                                    <Label Text="DESCRIÇÃO DO BANCO" TextColor="White" FontSize="16"/>
-                                </StackLayout>
-                                <StackLayout VerticalOptions="EndAndExpand">
-                                    <Label Text="DATA: 21/08/2020" TextColor="White" FontSize="16"/>
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
                                 </StackLayout>
                             </StackLayout>
                         </ViewCell>
@@ -66,10 +49,7 @@
                 </ListView.ItemTemplate>
             </ListView>
 
-<<<<<<< HEAD
             
-=======
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -60,73 +60,6 @@ C:\Users\vitor\Desktop\Api_RoleTop\bin\Debug\netcoreapp3.1\System.IdentityModel.
 C:\Users\vitor\Desktop\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.dll
 C:\Users\vitor\Desktop\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.pdb
 C:\Users\vitor\Desktop\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.genruntimeconfig.cache
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Api_RoleTop.exe
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Api_RoleTop.deps.json
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Api_RoleTop.runtimeconfig.json
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Api_RoleTop.runtimeconfig.dev.json
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Api_RoleTop.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Api_RoleTop.pdb
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.csprojAssemblyReference.cache
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.AssemblyInfoInputs.cache
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.AssemblyInfo.cs
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.csproj.CoreCompileInputs.cache
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.RazorTargetAssemblyInfo.cache
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.csproj.CopyComplete
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\staticwebassets\Api_RoleTop.StaticWebAssets.Manifest.cache
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\staticwebassets\Api_RoleTop.StaticWebAssets.xml
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.dll
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.pdb
-C:\Users\vitor\Desktop\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.genruntimeconfig.cache
-=======
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
 C:\Senai\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Senai\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Senai\RoleTopXamarim\Api_RoleTop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -187,7 +120,3 @@ C:\Senai\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.RazorTar
 C:\Senai\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.csproj.CopyComplete
 C:\Senai\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.dll
 C:\Senai\RoleTopXamarim\Api_RoleTop\obj\Debug\netcoreapp3.1\Api_RoleTop.pdb
-<<<<<<< HEAD
-=======
->>>>>>> 546ec251e01a485d8a6820ed2cf6c0e53a9ad3ca
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e

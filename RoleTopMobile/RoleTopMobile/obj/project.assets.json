@@ -644,29 +644,13 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\felip\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\felip\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
-=======
-    "C:\\Users\\vitor\\.nuget\\packages\\": {},
-    "F:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
->>>>>>> bf8885af6bb0b8e98591e4a1272498fa55c7ff9d
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
-=======
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
       "projectName": "RoleTopMobile",
       "projectPath": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
@@ -679,25 +663,6 @@
       ],
       "configFilePaths": [
         "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
-      "projectName": "RoleTopMobile",
-      "projectPath": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
-      "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-      "outputPath": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\obj\\",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
-      "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> bf8885af6bb0b8e98591e4a1272498fa55c7ff9d
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

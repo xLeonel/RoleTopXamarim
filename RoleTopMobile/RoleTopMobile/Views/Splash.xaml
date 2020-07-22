@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="RoleTopMobile.Views.Splash">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#1F1B24">
+        <StackLayout BackgroundColor="Black">
             <Image Source="appstore.png" WidthRequest="200" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
         </StackLayout>
        

@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="RoleTopMobile.Views.LoginView">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#1F1B24">
+        <StackLayout BackgroundColor="Black">
 
             <StackLayout Padding="0,30,0,0" VerticalOptions="StartAndExpand">
                 <Image Source="appstore.png" HorizontalOptions="CenterAndExpand" WidthRequest="150"/>

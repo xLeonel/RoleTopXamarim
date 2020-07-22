@@ -19,15 +19,7 @@ namespace RoleTopMobile.Services
                 if (client == null)
                 {
                     client = new HttpClient();
-<<<<<<< HEAD
                     client.BaseAddress = new Uri("http://192.168.0.8:5000/api/");
-=======
-<<<<<<< HEAD
-                    client.BaseAddress = new Uri("http://192.168.0.8:5000/api/");
-=======
-                    client.BaseAddress = new Uri("http://192.168.0.2:5000/api/");
->>>>>>> bf8885af6bb0b8e98591e4a1272498fa55c7ff9d
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
                 }
 
                 return client;
@@ -39,18 +31,8 @@ namespace RoleTopMobile.Services
             try
             {
                 MemoryStream ms = new MemoryStream(imageArray);
-<<<<<<< HEAD
                 ImageSource imgSource = ImageSource.FromStream(() => ms);
                 return imgSource;
-=======
-<<<<<<< HEAD
-                ImageSource imgSource = ImageSource.FromStream(() => ms);
-                return imgSource;
-=======
-                ImageSource imageSource = ImageSource.FromStream(() => ms);
-                return imageSource;
->>>>>>> bf8885af6bb0b8e98591e4a1272498fa55c7ff9d
->>>>>>> db9868da8da6c1d8ef0ac30b947bd759b234245e
             }
             catch (Exception)
             {
