@@ -5750,11 +5750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vitor\\Desktop\\Api_RoleTop\\Api_RoleTop.csproj",
+      "projectUniqueName": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
       "projectName": "Api_RoleTop",
-      "projectPath": "C:\\Users\\vitor\\Desktop\\Api_RoleTop\\Api_RoleTop.csproj",
+      "projectPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
       "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vitor\\Desktop\\Api_RoleTop\\obj\\",
+      "outputPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\Microsoft\\Xamarin\\NuGet\\",
