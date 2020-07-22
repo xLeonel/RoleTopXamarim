@@ -24,9 +24,9 @@ namespace Api_RoleTop.Controllers
 
 
         [HttpGet]
-        public IActionResult Get()
+        public IEnumerable<Estadio> Get()
         {
-            return Ok(_estadioRepository.GetAll());
+            return _estadioRepository.GetAll();
         }
 
         [HttpGet("{id}")]

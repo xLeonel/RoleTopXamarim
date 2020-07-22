@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e0CpopaZ7I64/JmhIlB4i65fk79Sy44fP8osV/ctPc7wSy79kEnQFtaAVtazxaDvceGRqUYNXYldvN5IBW2RFg==",
+  "dgSpecHash": "e6IqBGl5dWgb6UkCj5bgMsn2jJ+qkmq7MncW087jxxQd//bkN6ydrpGlqRo2BRYU2VKQw9KY8Ja47d9Y0roQsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
+  "projectFilePath": "C:\\Users\\vitor\\Desktop\\Api_RoleTop\\Api_RoleTop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitor\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.6\\microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
     "C:\\Users\\vitor\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
