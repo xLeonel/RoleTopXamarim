@@ -23,15 +23,17 @@ namespace Api_RoleTop.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IEnumerable<Show> Get()
         {
-            IEnumerable<Show> lista = _showRepository.GetAll();
+            //IEnumerable<Show> lista = _showRepository.GetAll();
 
-            if (lista.Count() == 0)
-            {
-                return BadRequest("Cadastre um show.");
-            }
-            return Ok(lista);
+            //if (lista.Count() == 0)
+            //{
+            //    return BadRequest("Cadastre um show.");
+            //}
+            //return Ok(lista);
+
+            return _showRepository.GetAll();
         }
 
         [HttpGet("{id}")]

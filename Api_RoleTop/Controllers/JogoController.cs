@@ -27,13 +27,13 @@ namespace Api_RoleTop.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult Get()
         {
-            IEnumerable<Jogo> lista = _jogoRepository.GetAll();
-
+            IEnumerable<Jogo> lista = _jogoRepository.GetTodos();
             if (lista.Count() == 0)
             {
                 return BadRequest("Cadastre um jogo.");
             }
             return Ok(lista);
+            //return _jogoRepository.GetAll();
         }
 
         /// <summary>
