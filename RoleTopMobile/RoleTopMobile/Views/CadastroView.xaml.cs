@@ -24,7 +24,7 @@ namespace RoleTopMobile.Views
             App.Current.MainPage = new NavigationPage(new LoginView());
         }
 
-        async void BtnBack_Clicked(object sender, EventArgs e)
+        void BtnBack_Clicked(object sender, EventArgs e)
         {
             Navigation.RemovePage(this);
             App.Current.MainPage = new NavigationPage(new LoginView());

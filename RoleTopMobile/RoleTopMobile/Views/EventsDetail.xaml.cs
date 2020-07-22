@@ -15,7 +15,6 @@ namespace RoleTopMobile.Views
         public EventsDetail()
         {
             InitializeComponent();
-            
         }
 
         void OnClick(object sender, EventArgs e)
