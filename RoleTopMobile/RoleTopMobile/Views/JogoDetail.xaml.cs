@@ -21,5 +21,10 @@ namespace RoleTopMobile.Views
             NavigationPage.SetHasNavigationBar(this, false);
             this.BindingContext = vm;
         }
+
+        void OnClickBack(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
+        }
     }
 }

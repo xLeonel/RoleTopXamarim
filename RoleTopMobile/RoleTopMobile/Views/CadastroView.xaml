@@ -7,7 +7,7 @@
              x:Class="RoleTopMobile.Views.CadastroView"
              Title="Cadastro">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black" Padding="10">
+        <StackLayout BackgroundColor="#1F1B24" Padding="10">
             <StackLayout Orientation="Horizontal" Margin="0,0,0,20"
                          BackgroundColor="DarkOrange" Padding="20,10,20,10">
                 <ImageButton Source="baseline_arrow_back_24.xml" 

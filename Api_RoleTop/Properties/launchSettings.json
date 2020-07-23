@@ -10,21 +10,12 @@
   },
   "profiles": {
     "Api_RoleTop": {
-<<<<<<< HEAD
         "commandName": "Project",
         "launchBrowser": false,
-        "applicationUrl": "http://192.168.0.15",
+        "applicationUrl": "http://192.168.0.8:5000",
         "environmentVariables": {
             "ASPNETCORE_ENVIRONMENT": "Development"
         }
-=======
-      "commandName": "Project",
-      "launchBrowser": false,
-      "applicationUrl": "http://192.168.0.2:5000",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
->>>>>>> f96278162c72ea843033e04c59134c8b24b540ac
     }
   }
 }

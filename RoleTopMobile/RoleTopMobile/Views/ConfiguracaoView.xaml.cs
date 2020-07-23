@@ -15,19 +15,19 @@ namespace RoleTopMobile.Views
         public ConfiguracaoView()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         async void BtnCadastro_Clicked(object sender, EventArgs e)
         {
             await DisplayAlert("Sucesso!", "Atualizado com sucesso", "Ok");
             Navigation.RemovePage(this);
-            App.Current.MainPage = new NavigationPage(new LoginView());
+            App.Current.MainPage = new NavigationPage(new BuscaView());
         }
 
         void BtnBack_Clicked(object sender, EventArgs e)
         {
             Navigation.RemovePage(this);
-            App.Current.MainPage = new NavigationPage(new LoginView());
         }
     }
 }

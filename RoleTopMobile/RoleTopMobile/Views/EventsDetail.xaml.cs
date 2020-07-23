@@ -19,7 +19,12 @@ namespace RoleTopMobile.Views
 
         void OnClick(object sender, EventArgs e)
         {
-            //Navigation.PushAsync(new EventsDetail());
+            Navigation.PushAsync(new JogoDetail());
+        }
+
+        void OnClickBack(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
         }
     }
 }

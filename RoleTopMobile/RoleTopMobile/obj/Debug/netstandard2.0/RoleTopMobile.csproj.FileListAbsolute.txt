@@ -79,3 +79,26 @@ C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Vie
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\ConfiguracaoView.xaml.g.cs
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\EventsDetail.xaml.g.cs
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.csprojAssemblyReference.cache
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\BuscaView.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\CadastroView.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\ConfiguracaoView.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\EstadioEvents.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\EventsDetail.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\JogoDetail.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\MenuView.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\ShowDetail.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\Splash.xaml.g.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.AssemblyInfoInputs.cache
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.AssemblyInfo.cs
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.dll
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\ref\RoleTopMobile.dll
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.pdb
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netstandard2.0\RoleTopMobile.deps.json
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netstandard2.0\RoleTopMobile.dll
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netstandard2.0\ref\RoleTopMobile.dll
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netstandard2.0\RoleTopMobile.pdb
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\XamlC.stamp

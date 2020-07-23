@@ -6,11 +6,15 @@
              mc:Ignorable="d"
              x:Class="RoleTopMobile.Views.JogoDetail">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black" Padding="10">
+        <StackLayout BackgroundColor="#1F1B24" Padding="10">
             <StackLayout Orientation="Horizontal" Margin="5">
                 <Image Source="baseline_arrow_back_white_36.png" HeightRequest="30"
                     VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="StartAndExpand" />
+                    HorizontalOptions="StartAndExpand">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnClickBack"  NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
                 <Image Source="appstore.png" HeightRequest="50"
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="EndAndExpand" />
@@ -25,10 +29,10 @@
                         <ViewCell>
                             <StackLayout VerticalOptions="CenterAndExpand">
                                 <StackLayout>
-                                    <Image Source="{Binding Evento.Estadio.imgSourceEstadio}" Aspect="AspectFill" HeightRequest="200" Margin="0, 10, 0, 10"/>
+                                    <Image Source="{Binding Evento}" Aspect="AspectFill" HeightRequest="200" Margin="0, 10, 0, 10"/>
                                 </StackLayout>
                                 <StackLayout Orientation="Horizontal">
-                                    <Image Source="{Binding SelecaoCasaNavigation.imgSourceSelecao}" HorizontalOptions="StartAndExpand"/>
+                                    <Image Source="{Binding SelecaoCasaNavigation.Foto}" HorizontalOptions="StartAndExpand"/>
                                     <Image Source="{Binding SelecaoVisitanteNavigation.imgSourceSelecao}" HorizontalOptions="EndAndExpand"/>
                                 </StackLayout>
                                 <StackLayout Orientation="Horizontal">
@@ -48,6 +52,9 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <StackLayout>
+                <Label Text="ALO" TextColor="White" FontSize="20"/>
+            </StackLayout>
 
             
         </StackLayout>

@@ -21,7 +21,7 @@ namespace RoleTopMobile.Views
 
         private void BtnLogin_Clicked(object sender, EventArgs e)
         {
-            App.Current.MainPage = new NavigationPage(new MainPage());
+            App.Current.MainPage = new NavigationPage(new BuscaView());
         }
 
         private void BtnCadastro_Clicked(object sender, EventArgs e)

@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="RoleTopMobile.Views.ConfiguracaoView">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black" >
+        <StackLayout BackgroundColor="#1F1B24" >
             <StackLayout Orientation="Horizontal" Margin="0,0,0,20"  BackgroundColor="DarkOrange" Padding="20,10,20,10">
                 <ImageButton Source="baseline_arrow_back_24.xml" 
                     Scale="1.7" 

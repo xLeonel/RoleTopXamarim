@@ -14,7 +14,11 @@
                 HeightRequest="40"
                 Margin="10"
                 VerticalOptions="StartAndExpand" 
-                HorizontalOptions="EndAndExpand" />
+                HorizontalOptions="EndAndExpand">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnClickBack"  NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
             </StackLayout>
             <StackLayout>
                 <Image Source="appstore.png"
@@ -24,7 +28,7 @@
             </StackLayout>
             <StackLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300" Margin="50">
                 <Button Text="Inicio" FontSize="Large" BackgroundColor="#F29F05" Clicked="BtnInicio_Clicked" Padding="20"/>
-                <Button Text="Buscar" FontSize="Large" BackgroundColor="#F29F05"  Padding="20"/>
+                <Button Text="Buscar" FontSize="Large" BackgroundColor="#F29F05" Clicked="BtnBusca_Clicked" Padding="20"/>
                 <Button Text="Configurações" FontSize="Large" BackgroundColor="#F29F05" Clicked="BtnConfig_Clicked" Padding="20"/>
             </StackLayout>
             <StackLayout BackgroundColor="#F28705" VerticalOptions="EndAndExpand" HeightRequest="60">

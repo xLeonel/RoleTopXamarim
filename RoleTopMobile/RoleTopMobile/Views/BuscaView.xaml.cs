@@ -15,6 +15,12 @@ namespace RoleTopMobile.Views
         public BuscaView()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
+        private void BtnBuscar_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new EstadioEvents();
         }
     }
 }

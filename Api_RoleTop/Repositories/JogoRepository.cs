@@ -15,7 +15,7 @@ namespace Api_RoleTop.Repositories
 
         public IEnumerable<Jogo> GetTodos()
         {
-            return ctx.Jogo.Include(j => j.SelecaoCasaNavigation).Include(j => j.SelecaoVisitanteNavigation).ToList();
+            return ctx.Jogo.ToList();
                 
         }
     }

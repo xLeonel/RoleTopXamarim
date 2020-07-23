@@ -7,41 +7,21 @@
              x:Class="RoleTopMobile.Views.EventsDetail"
              Title="Eventos">
     <ContentPage.Content>
-        
-        <StackLayout BackgroundColor="Black">
-            <!--<StackLayout Orientation="Horizontal" Margin="5">
+
+        <StackLayout BackgroundColor="#1F1B24">
+            <StackLayout Orientation="Horizontal" Margin="5">
                 <Image Source="baseline_arrow_back_white_36.png" HeightRequest="30"
                     VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="StartAndExpand" />
+                    HorizontalOptions="StartAndExpand">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnClickBack"  NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
                 <Label Text="Eventos" TextColor="#F29F05"  FontSize="30"></Label>
                 <Image Source="appstore.png" HeightRequest="50"
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="EndAndExpand" />
-            </StackLayout>-->
-
-            <!--APAGAR-->
-            <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
-                <Image Source="Maracana_2014_e.jpg" HeightRequest="250">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
-                    </Image.GestureRecognizers>
-                </Image>
-                <StackLayout Spacing="10" Orientation="Horizontal">
-                    <Label Text="Nome Evento" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
-                        <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
-                        </Label.GestureRecognizers>
-                    </Label>
-                    <Label Text="Dia Evento" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
-                        <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
-                        </Label.GestureRecognizers>
-                    </Label>
-                </StackLayout>
-                
             </StackLayout>
-            <!--APAGAR-->
-
 
             <ListView
                 ItemsSource="{Binding Eventos}"

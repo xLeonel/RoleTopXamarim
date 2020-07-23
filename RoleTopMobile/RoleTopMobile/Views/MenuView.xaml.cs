@@ -20,16 +20,24 @@ namespace RoleTopMobile.Views
 
         }
 
+        void OnClickBack(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
+        }
+
         private void BtnInicio_Clicked(object sender, EventArgs e)
         {
             App.Current.MainPage = new NavigationPage(new EstadioEvents());
         }
 
-
+        private void BtnBusca_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new BuscaView());
+        }
 
         private void BtnConfig_Clicked(object sender, EventArgs e)
         {
-            App.Current.MainPage = new NavigationPage(new CadastroView());
+            App.Current.MainPage = new NavigationPage(new ConfiguracaoView());
         }
 
 

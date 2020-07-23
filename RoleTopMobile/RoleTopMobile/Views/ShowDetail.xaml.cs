@@ -15,6 +15,12 @@ namespace RoleTopMobile.Views
         public ShowDetail()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
+        void OnClickBack(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
         }
     }
 }
