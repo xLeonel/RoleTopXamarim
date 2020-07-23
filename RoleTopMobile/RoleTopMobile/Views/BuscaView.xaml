@@ -30,19 +30,19 @@
             <StackLayout HorizontalOptions="CenterAndExpand">
                 
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Selecione a UF:" TextColor="#F29F05" FontSize="Large"/>
+                    <Label Text="Selecione a UF:" TextColor="#F25E3D" FontSize="Large"/>
                 </StackLayout>
 
                 <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                    <Entry Placeholder="Insira o Estado" PlaceholderColor="Violet" ClearButtonVisibility="WhileEditing" WidthRequest="300" ></Entry>
+                    <Entry Placeholder="Insira o Estado" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="300" ></Entry>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Padding="0,10,0,0">
-                    <Label Text="Cidade:" TextColor="#F29F05" FontSize="Large"/>
+                    <Label Text="Cidade:" TextColor="#F25E3D" FontSize="Large"/>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Entry Placeholder="Insira a Cidade" PlaceholderColor="Violet" IsPassword="True" ClearButtonVisibility="WhileEditing" WidthRequest="300"></Entry>
+                    <Entry Placeholder="Insira a Cidade" PlaceholderColor="#F3F1F5" IsPassword="True" ClearButtonVisibility="WhileEditing" WidthRequest="300"></Entry>
                 </StackLayout>
 
                 <StackLayout Padding="0,30,0,0">

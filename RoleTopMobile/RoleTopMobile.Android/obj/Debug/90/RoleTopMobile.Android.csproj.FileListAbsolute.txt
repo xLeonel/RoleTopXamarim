@@ -2056,3 +2056,10 @@ C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Deb
 C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_map_24.xml
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\drawable\baseline_explore_24.xml
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\mipmap-hdpi\baseline_explore_black_36.png
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\mipmap-hdpi\baseline_map_black_36.png
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\mipmap-xxhdpi\baseline_explore_black_36.png
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\res\mipmap-xxhdpi\baseline_map_black_36.png
+C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp

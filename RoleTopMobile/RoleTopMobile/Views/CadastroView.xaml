@@ -7,9 +7,9 @@
              x:Class="RoleTopMobile.Views.CadastroView"
              Title="Cadastro">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#1F1B24" Padding="10">
+        <StackLayout BackgroundColor="#1F1B24">
             <StackLayout Orientation="Horizontal" Margin="0,0,0,20"
-                         BackgroundColor="DarkOrange" Padding="20,10,20,10">
+                         BackgroundColor="#F29F05" Padding="20,10,20,10">
                 <ImageButton Source="baseline_arrow_back_24.xml" 
                     Scale="1.7" 
                     Margin="5,0,0,0"
@@ -18,9 +18,9 @@
                     Clicked="BtnBack_Clicked"
                     BackgroundColor="Transparent"/>
 
-                <Label Text="Cadastro" HorizontalOptions="CenterAndExpand" 
-                       Padding="0,15,0,0" FontSize="Title" TextColor="Black" 
-                       FontAttributes="Bold" ></Label>
+                <Label Text="Cadastro" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                       FontSize="Title" TextColor="Black" 
+                       FontAttributes="Bold" />
                 <Image Source="appstore.png" HeightRequest="50"
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="EndAndExpand" />
@@ -31,48 +31,48 @@
                 <StackLayout HorizontalOptions="CenterAndExpand">
 
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Nome" TextColor="#B429CC" FontAttributes="Bold"  WidthRequest="250" FontSize="Large" ></Label>
+                        <Label Text="Nome" TextColor="#F25E3D" FontAttributes="Bold"  WidthRequest="300" FontSize="Large" ></Label>
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                        <Entry Placeholder="Insira seu nome" FontAttributes="Italic" PlaceholderColor="Violet" ClearButtonVisibility="WhileEditing" WidthRequest="150"></Entry>
+                        <Entry Placeholder="Insira seu nome" FontAttributes="Italic" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="150"></Entry>
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Email" TextColor="#B429CC" FontAttributes="Bold" FontSize="Large" WidthRequest="250"></Label>
+                        <Label Text="Email" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250"></Label>
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                        <Entry Placeholder="Insira seu melhor email"  FontAttributes="Italic" PlaceholderColor="Violet" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
+                        <Entry Placeholder="Insira seu melhor email"  FontAttributes="Italic" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Senha" TextColor="#B429CC" FontAttributes="Bold" FontSize="Large" WidthRequest="250"></Label>
+                        <Label Text="Senha" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250"></Label>
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                        <Entry IsPassword="True" Placeholder="Digite a senha" PlaceholderColor="Violet" FontAttributes="Italic" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
+                        <Entry IsPassword="True" Placeholder="Digite a senha" PlaceholderColor="#F3F1F5" FontAttributes="Italic" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Confirmar senha" TextColor="#B429CC" FontAttributes="Bold" FontSize="Large" WidthRequest="250" Visual="Material"></Label>
+                        <Label Text="Confirmar senha" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250" Visual="Material"></Label>
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                        <Entry IsPassword="True" Placeholder="Confirme a senha" PlaceholderColor="Violet" FontAttributes="Italic" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
+                        <Entry IsPassword="True" Placeholder="Confirme a senha" PlaceholderColor="#F3F1F5" FontAttributes="Italic" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Apelido / Nickname" TextColor="#B429CC" FontAttributes="Bold" FontSize="Large" WidthRequest="250" Visual="Material"></Label>
+                        <Label Text="Apelido / Nickname" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250" Visual="Material"></Label>
                     </StackLayout>
 
 
                     <StackLayout Orientation="Horizontal" Padding="0,0,0,10" >
-                        <Entry Placeholder="Como deseja ser chamado?"  FontAttributes="Italic" PlaceholderColor="Violet" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
+                        <Entry Placeholder="Como deseja ser chamado?"  FontAttributes="Italic" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
                     </StackLayout>
 
                     <StackLayout Padding="0,0,0,0">
-                        <Button Text="Salvar" FontAttributes="Bold" FontSize="Large" BackgroundColor="DarkOrange" TextColor="Black" CornerRadius="17" Clicked="BtnCadastro_Clicked"></Button>
+                        <Button Text="Salvar" FontAttributes="Bold" FontSize="Large" BackgroundColor="#F29F05" TextColor="Black" CornerRadius="17" Clicked="BtnCadastro_Clicked"></Button>
                     </StackLayout>
                 </StackLayout>
 

@@ -9,7 +9,7 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="#1F1B24">
 
-            <StackLayout Orientation="Horizontal"  Padding="10">
+            <StackLayout Orientation="Horizontal" Margin="5" Padding="10">
                 <Image Source="baseline_arrow_back_white_36.png" HeightRequest="30"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="StartAndExpand" >
@@ -17,36 +17,61 @@
                         <TapGestureRecognizer Tapped="OnClickBack" />
                     </Image.GestureRecognizers>
                 </Image>
-                <Label Text="Estádios" TextColor="#F29F05"  FontSize="35"></Label>
+                <Label Text="Estádios" TextColor="#F29F05"  FontSize="30" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
                 <Image Source="appstore.png" HeightRequest="50"
-                    VerticalOptions="StartAndExpand" 
+                    VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="EndAndExpand" />
             </StackLayout>
 
-            <ListView
+            <ScrollView Padding="10">
+                <ListView
                 ItemsSource="{Binding Estadios}"
                 HasUnevenRows="true"
                 >
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
-                                <Image Source="{Binding fotoConvertida}" HeightRequest="250">
-                                    <Image.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
-                                    </Image.GestureRecognizers>
-                                </Image>
-                                    
-                                <Label Text="{Binding nome}" FontSize="16" TextColor="Violet" HorizontalOptions="CenterAndExpand">
-                                    <Label.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
-                                    </Label.GestureRecognizers>
-                                </Label>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
+                                    <Image Source="{Binding fotoConvertida}" HeightRequest="250">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
+                                        </Image.GestureRecognizers>
+                                    </Image>
+
+                                    <Label Text="{Binding nome}" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+            <StackLayout VerticalOptions="End" HeightRequest="50" BackgroundColor="#F29F05" Orientation="Horizontal" >
+                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Padding="40, 0, 0, 0">
+                    <Image Source="baseline_explore_24.xml" HorizontalOptions="Center"  Scale="1.5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnClickExplore"  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+                <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand">
+                    <Image Source="baseline_map_24.xml" HorizontalOptions="Center"  Scale="1.5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnClickMaps"  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+                <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="EndAndExpand" Padding="0, 0, 40, 0">
+                    <Image Source="baseline_arrow_upward_24.xml" HorizontalOptions="Center" Scale="1.5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnClickArrow"  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

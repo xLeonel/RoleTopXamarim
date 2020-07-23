@@ -15,19 +15,19 @@
             <StackLayout HorizontalOptions="CenterAndExpand">
 
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="E-mail:" TextColor="#F29F05" FontSize="Large"/>
+                    <Label Text="E-mail:" TextColor="#F25E3D" FontSize="Large"/>
                 </StackLayout>
 
                 <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                    <Entry Placeholder="Insira o email" PlaceholderColor="Violet" ClearButtonVisibility="WhileEditing" WidthRequest="300" ></Entry>
+                    <Entry Placeholder="Insira o email" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="300" ></Entry>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Padding="0,10,0,0">
-                    <Label Text="Senha:" TextColor="#F29F05" FontSize="Large"/>
+                    <Label Text="Senha:" TextColor="#F25E3D" FontSize="Large"/>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Entry Placeholder="Insira a senha" PlaceholderColor="Violet" IsPassword="True" ClearButtonVisibility="WhileEditing" WidthRequest="300"></Entry>
+                    <Entry Placeholder="Insira a senha" PlaceholderColor="#F3F1F5" IsPassword="True" ClearButtonVisibility="WhileEditing" WidthRequest="300"></Entry>
                 </StackLayout>
 
                 <StackLayout Padding="0,30,0,0">
@@ -36,7 +36,7 @@
             </StackLayout>
 
             <StackLayout VerticalOptions="EndAndExpand" Padding="0,0,0,10">
-                <Button Text="Não tem cadastro? Crie já!" FontSize="Medium" TextColor="Violet" BackgroundColor="Transparent" Clicked="BtnCadastro_Clicked"></Button>
+                <Button Text="Não tem cadastro? Crie já!" FontSize="Medium" TextColor="#B429CC" BackgroundColor="Transparent" Clicked="BtnCadastro_Clicked"></Button>
             </StackLayout>
 
         </StackLayout>

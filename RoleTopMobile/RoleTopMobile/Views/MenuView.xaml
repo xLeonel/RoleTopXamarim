@@ -10,9 +10,9 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="#F29F05">
             <StackLayout>
-                <Image Source="baseline_arrow_downward_white_36.png"  
-                HeightRequest="40"
-                Margin="10"
+                <Image Source="baseline_arrow_downward_24.png"  Margin="20"
+                HeightRequest="50"
+                Scale="2"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="EndAndExpand">
                     <Image.GestureRecognizers>
@@ -27,12 +27,12 @@
                    VerticalOptions="Center"/>
             </StackLayout>
             <StackLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300" Margin="50">
-                <Button Text="Inicio" FontSize="Large" BackgroundColor="#F29F05" Clicked="BtnInicio_Clicked" Padding="20"/>
-                <Button Text="Buscar" FontSize="Large" BackgroundColor="#F29F05" Clicked="BtnBusca_Clicked" Padding="20"/>
-                <Button Text="Configurações" FontSize="Large" BackgroundColor="#F29F05" Clicked="BtnConfig_Clicked" Padding="20"/>
+                <Button Text="Início" FontSize="26" BackgroundColor="#F29F05" Clicked="BtnInicio_Clicked" Padding="20" FontAttributes="Bold"/>
+                <Button Text="Buscar" FontSize="26" BackgroundColor="#F29F05" Clicked="BtnBusca_Clicked" Padding="20" FontAttributes="Bold"/>
+                <Button Text="Configurações" FontSize="26" BackgroundColor="#F29F05" Clicked="BtnConfig_Clicked" Padding="20" FontAttributes="Bold"/>
             </StackLayout>
             <StackLayout BackgroundColor="#F28705" VerticalOptions="EndAndExpand" HeightRequest="60">
-                <Button Text="Sair" FontSize="Large" BackgroundColor="#F28705" VerticalOptions="CenterAndExpand"/>
+                <Button Text="Log-out" FontSize="Large" BackgroundColor="#F28705" VerticalOptions="CenterAndExpand" FontAttributes="Bold"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

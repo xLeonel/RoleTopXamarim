@@ -20,7 +20,7 @@ namespace RoleTopMobile.Views
 
         private void BtnBuscar_Clicked(object sender, EventArgs e)
         {
-            App.Current.MainPage = new EstadioEvents();
+            App.Current.MainPage = new NavigationPage(new EstadioEvents());
         }
     }
 }
