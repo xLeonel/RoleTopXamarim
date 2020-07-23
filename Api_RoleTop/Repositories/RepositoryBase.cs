@@ -39,7 +39,7 @@ namespace Api_RoleTop.Repositories
 
         public IEnumerable<TEntity> GetAll()
         {
-            return ctx.Set<TEntity>().ToList();
+             return ctx.Set<TEntity>().ToList();
         }
 
         public TEntity GetById(int id)

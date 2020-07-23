@@ -5743,12 +5743,19 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\fermo\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+=======
+    "C:\\Users\\vitor\\.nuget\\packages\\": {},
+    "F:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> f96278162c72ea843033e04c59134c8b24b540ac
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\fermo\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
       "projectName": "Api_RoleTop",
       "projectPath": "C:\\Users\\fermo\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
@@ -5760,6 +5767,20 @@
       ],
       "configFilePaths": [
         "C:\\Users\\fermo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
+      "projectName": "Api_RoleTop",
+      "projectPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
+      "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "F:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> f96278162c72ea843033e04c59134c8b24b540ac
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

@@ -8,5 +8,6 @@ namespace Api_RoleTop.Interfaces
 {
     public interface IJogoRepository : IRepositoryBase<Jogo>
     {
+        IEnumerable<Jogo> GetTodos();
     }
 }
