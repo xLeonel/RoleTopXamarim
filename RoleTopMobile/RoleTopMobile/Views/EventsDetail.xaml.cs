@@ -49,6 +49,7 @@ namespace RoleTopMobile.Views
         void OnClickBack(object sender, EventArgs e)
         {
             Navigation.PopAsync();
+            App.Current.MainPage = new NavigationPage(new EstadioEvents());
         }
 
         void OnClickExplore(object sender, EventArgs e)

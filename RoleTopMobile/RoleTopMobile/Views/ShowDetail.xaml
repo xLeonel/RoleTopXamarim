@@ -39,7 +39,7 @@
                     </StackLayout>
                 </StackLayout>
             </ScrollView>
-            <StackLayout VerticalOptions="End" HeightRequest="50" BackgroundColor="#F29F05" Orientation="Horizontal" >
+            <StackLayout VerticalOptions="EndAndExpand" HeightRequest="50" BackgroundColor="#F29F05" Orientation="Horizontal" >
                 <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Padding="40, 0, 0, 0">
                     <Image Source="baseline_explore_24.xml" HorizontalOptions="Center"  Scale="1.5">
                         <Image.GestureRecognizers>

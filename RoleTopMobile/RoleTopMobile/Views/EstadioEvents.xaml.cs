@@ -26,6 +26,8 @@ namespace RoleTopMobile.Views
 
         void OnClick(object sender, EventArgs e)
         {
+            Navigation.PopAsync();
+            App.Current.MainPage = new NavigationPage(new EventsDetail());
 
             //var obj = listviewEstadio.SelectedItem;
 
@@ -76,6 +78,7 @@ namespace RoleTopMobile.Views
         void OnClickBack(object sender, EventArgs e)
         {
             Navigation.RemovePage(this);
+            App.Current.MainPage = new NavigationPage(new BuscaView());
         }
 
         void OnClickExplore(object sender, EventArgs e)

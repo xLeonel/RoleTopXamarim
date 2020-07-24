@@ -28,6 +28,7 @@ namespace RoleTopMobile.Views
         void BtnBack_Clicked(object sender, EventArgs e)
         {
             Navigation.RemovePage(this);
+            App.Current.MainPage = new NavigationPage(new EstadioEvents());
         }
     }
 }

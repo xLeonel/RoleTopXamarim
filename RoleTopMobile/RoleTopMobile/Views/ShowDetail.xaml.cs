@@ -20,7 +20,8 @@ namespace RoleTopMobile.Views
 
         void OnClickBack(object sender, EventArgs e)
         {
-            Navigation.PopAsync();
+            Navigation.RemovePage(this);
+            App.Current.MainPage = new NavigationPage(new EventsDetail());
         }
 
         void OnClickExplore(object sender, EventArgs e)

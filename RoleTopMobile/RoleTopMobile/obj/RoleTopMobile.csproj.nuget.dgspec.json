@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj": {}
+    "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj": {}
   },
   "projects": {
-    "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj": {
+    "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
         "projectName": "RoleTopMobile",
-        "projectPath": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
+        "projectPath": "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\obj\\",
+        "outputPath": "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

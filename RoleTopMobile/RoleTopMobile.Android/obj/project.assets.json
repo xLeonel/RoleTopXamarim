@@ -2455,11 +2455,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile.Android\\RoleTopMobile.Android.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile.Android\\RoleTopMobile.Android.csproj",
       "projectName": "RoleTopMobile.Android",
-      "projectPath": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile.Android\\RoleTopMobile.Android.csproj",
+      "projectPath": "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile.Android\\RoleTopMobile.Android.csproj",
       "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-      "outputPath": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile.Android\\obj\\",
+      "outputPath": "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2480,8 +2480,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj": {
-              "projectPath": "C:\\Senai\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj"
+            "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj": {
+              "projectPath": "C:\\Users\\felip\\Desktop\\RoleTopXamarim\\RoleTopMobile\\RoleTopMobile\\RoleTopMobile.csproj"
             }
           }
         }

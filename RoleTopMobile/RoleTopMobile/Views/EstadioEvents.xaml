@@ -39,26 +39,26 @@
                         </Label>
                     </StackLayout>
                     <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
-                        <Image Source="Maracana_2014_e.jpg" HeightRequest="250">
+                        <Image Source="Mane_2013.jpg" HeightRequest="250">
                             <Image.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
                             </Image.GestureRecognizers>
                         </Image>
 
-                        <Label  Text="Maracanã" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                        <Label  Text="Mané Garrincha" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
                             <Label.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
                             </Label.GestureRecognizers>
                         </Label>
                     </StackLayout>
                     <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
-                        <Image Source="Maracana_2014_e.jpg" HeightRequest="250">
+                        <Image Source="Castelo.jpg" HeightRequest="250">
                             <Image.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
                             </Image.GestureRecognizers>
                         </Image>
 
-                        <Label  Text="Maracanã" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                        <Label  Text="Castelão" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
                             <Label.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
                             </Label.GestureRecognizers>
@@ -66,7 +66,7 @@
                     </StackLayout>
                 </StackLayout>
             </ScrollView>
-            <StackLayout VerticalOptions="End" HeightRequest="50" BackgroundColor="#F29F05" Orientation="Horizontal" >
+            <StackLayout VerticalOptions="EndAndExpand" HeightRequest="50" BackgroundColor="#F29F05" Orientation="Horizontal" >
                 <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Padding="40, 0, 0, 0">
                     <Image Source="baseline_explore_24.xml" HorizontalOptions="Center"  Scale="1.5">
                         <Image.GestureRecognizers>

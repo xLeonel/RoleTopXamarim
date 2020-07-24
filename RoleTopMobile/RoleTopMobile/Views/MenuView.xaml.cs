@@ -22,7 +22,8 @@ namespace RoleTopMobile.Views
 
         void OnClickBack(object sender, EventArgs e)
         {
-            Navigation.PopAsync();
+            Navigation.RemovePage(this);
+            App.Current.MainPage = new NavigationPage(new EstadioEvents());
         }
 
         private void BtnInicio_Clicked(object sender, EventArgs e)
