@@ -32,7 +32,7 @@
                         <DataTemplate>
                             <ViewCell>
                                 <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
-                                    <Image Source="{Binding fotoConvertida}" HeightRequest="250">
+                                    <Image Source="{Binding imgSourceEstadio}" HeightRequest="250">
                                         <Image.GestureRecognizers>
                                             <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
                                         </Image.GestureRecognizers>

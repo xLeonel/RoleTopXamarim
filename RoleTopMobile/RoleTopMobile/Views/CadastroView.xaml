@@ -6,19 +6,19 @@
              mc:Ignorable="d"
              x:Class="RoleTopMobile.Views.CadastroView"
              Title="Cadastro">
-<<<<<<< HEAD
-<ContentPage.Content>
-    <StackLayout BackgroundColor="Black">
-        <StackLayout Orientation="Horizontal" Margin="0,0,0,20"
-                         BackgroundColor="DarkOrange" Padding="20,10,20,10">
-            <ImageButton Source="baseline_arrow_back_24.xml" 
-=======
+
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#1F1B24">
+        <StackLayout BackgroundColor="Black">
             <StackLayout Orientation="Horizontal" Margin="0,0,0,20"
+                         BackgroundColor="DarkOrange" Padding="20,10,20,10">
+                <ImageButton Source="baseline_arrow_back_24.xml"></ImageButton>
+
+
+                <StackLayout BackgroundColor="#1F1B24">
+                    <StackLayout Orientation="Horizontal" Margin="0,0,0,20"
                          BackgroundColor="#F29F05" Padding="20,10,20,10">
-                <ImageButton Source="baseline_arrow_back_24.xml" 
->>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2
+                        <ImageButton Source="baseline_arrow_back_24.xml" 
+
                     Scale="1.7" 
                     Margin="5,0,0,0"
                     VerticalOptions="CenterAndExpand" 
@@ -26,62 +26,62 @@
                     Clicked="BtnBack_Clicked"
                     BackgroundColor="Transparent"/>
 
-<<<<<<< HEAD
-            <Label Text="Cadastro" HorizontalOptions="CenterAndExpand" 
+
+                        <Label Text="Cadastro" HorizontalOptions="CenterAndExpand" 
                        Padding="0,15,0,0" FontSize="Title" TextColor="Black" 
                        FontAttributes="Bold" ></Label>
-            <Image Source="appstore.png" HeightRequest="50"
+                        <Image Source="appstore.png" HeightRequest="50"
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="EndAndExpand" />
-        </StackLayout>
-        <StackLayout>
-            <StackLayout HorizontalOptions="CenterAndExpand">
+                    </StackLayout>
+                    <StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand">
 
-                <StackLayout Orientation="Horizontal">
-                    <Label  Text="Nome*"
+                            <StackLayout Orientation="Horizontal">
+                                <Label  Text="Nome*"
                                        TextColor="#B429CC" 
                                        FontAttributes="Bold" 
                                        WidthRequest="250" 
                                        FontSize="Large" ></Label>
-                </StackLayout>
+                            </StackLayout>
 
-                <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                    <Entry x:Name="TxtNome" 
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
+                                <Entry x:Name="TxtNome" 
                                         TextColor="Violet"
                                         Placeholder="Insira seu nome" 
                                         FontAttributes="Italic" 
                                         PlaceholderColor="Violet" 
                                         ClearButtonVisibility="WhileEditing" 
                                         WidthRequest="150"></Entry>
-                </StackLayout>
+                            </StackLayout>
 
-                <StackLayout Orientation="Horizontal">
-                    <Label   Text="Email*" 
+                            <StackLayout Orientation="Horizontal">
+                                <Label   Text="Email*" 
                                         TextColor="#B429CC" 
                                         FontAttributes="Bold" 
                                         FontSize="Large" 
                                         WidthRequest="250"></Label>
-                </StackLayout>
-                <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                    <Entry  x:Name="TxtEmail"
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
+                                <Entry  x:Name="TxtEmail"
                                             TextColor="Violet"
                                             Placeholder="Insira seu melhor email"
                                             FontAttributes="Italic" 
                                             PlaceholderColor="Violet" 
                                             ClearButtonVisibility="WhileEditing" 
                                             WidthRequest="250"></Entry>
-                </StackLayout>
+                            </StackLayout>
 
-                <StackLayout Orientation="Horizontal">
-                    <Label   Text="Senha*" 
+                            <StackLayout Orientation="Horizontal">
+                                <Label   Text="Senha*" 
                                         TextColor="#B429CC" 
                                         FontAttributes="Bold" 
                                         FontSize="Large" 
                                         WidthRequest="250"></Label>
-                </StackLayout>
+                            </StackLayout>
 
-                <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                    <Entry  x:Name="TxtSenha" 
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
+                                <Entry  x:Name="TxtSenha" 
                                             TextColor="Violet"
                                             IsPassword="True" 
                                             Placeholder="Digite a senha" 
@@ -89,66 +89,66 @@
                                             FontAttributes="Italic" 
                                             ClearButtonVisibility="WhileEditing" 
                                             WidthRequest="250"></Entry>
-                </StackLayout>
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Confirmar senha*" 
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Confirmar senha*" 
                                         TextColor="#B429CC" 
                                         FontAttributes="Bold" 
                                         FontSize="Large" 
                                         WidthRequest="250"></Label>
-                </StackLayout>
-=======
-                <Label Text="Cadastro" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                            </StackLayout>
+
+                            <Label Text="Cadastro" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
                        FontSize="Title" TextColor="Black" 
                        FontAttributes="Bold" />
-                <Image Source="appstore.png" HeightRequest="50"
+                            <Image Source="appstore.png" HeightRequest="50"
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="EndAndExpand" />
-            </StackLayout>
-        
-            <StackLayout>
+                        </StackLayout>
 
-                <StackLayout HorizontalOptions="CenterAndExpand">
 
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="Nome" TextColor="#F25E3D" FontAttributes="Bold"  WidthRequest="300" FontSize="Large" ></Label>
-                    </StackLayout>
 
-                    <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                        <Entry Placeholder="Insira seu nome" FontAttributes="Italic" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="150"></Entry>
-                    </StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand">
 
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="Email" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250"></Label>
-                    </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Nome" TextColor="#F25E3D" FontAttributes="Bold"  WidthRequest="300" FontSize="Large" ></Label>
+                            </StackLayout>
 
-                    <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                        <Entry Placeholder="Insira seu melhor email"  FontAttributes="Italic" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
-                    </StackLayout>
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
+                                <Entry Placeholder="Insira seu nome" FontAttributes="Italic" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="150"></Entry>
+                            </StackLayout>
 
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="Senha" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250"></Label>
-                    </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Email" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250"></Label>
+                            </StackLayout>
 
-                    <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                        <Entry IsPassword="True" Placeholder="Digite a senha" PlaceholderColor="#F3F1F5" FontAttributes="Italic" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
-                    </StackLayout>
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
+                                <Entry Placeholder="Insira seu melhor email"  FontAttributes="Italic" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
+                            </StackLayout>
 
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="Confirmar senha" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250" Visual="Material"></Label>
-                    </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Senha" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250"></Label>
+                            </StackLayout>
 
-                    <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                        <Entry IsPassword="True" Placeholder="Confirme a senha" PlaceholderColor="#F3F1F5" FontAttributes="Italic" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
-                    </StackLayout>
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
+                                <Entry IsPassword="True" Placeholder="Digite a senha" PlaceholderColor="#F3F1F5" FontAttributes="Italic" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
+                            </StackLayout>
 
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="Apelido / Nickname" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250" Visual="Material"></Label>
-                    </StackLayout>
->>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Confirmar senha" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250" Visual="Material"></Label>
+                            </StackLayout>
 
-                <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
-                    <Entry  x:Name="TxtConfSenha" 
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
+                                <Entry IsPassword="True" Placeholder="Confirme a senha" PlaceholderColor="#F3F1F5" FontAttributes="Italic" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Apelido / Nickname" TextColor="#F25E3D" FontAttributes="Bold" FontSize="Large" WidthRequest="250" Visual="Material"></Label>
+                            </StackLayout>
+
+
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,10">
+                                <Entry  x:Name="TxtConfSenha" 
                                         TextColor="Violet"
                                         IsPassword="True" 
                                         Placeholder="Confirme a senha" 
@@ -156,28 +156,28 @@
                                         FontAttributes="Italic" 
                                         ClearButtonVisibility="WhileEditing" 
                                         WidthRequest="250"></Entry>
-                </StackLayout>
-                <StackLayout Orientation="Horizontal">
-                    <Label   Text="Apelido / Nickname*" 
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label   Text="Apelido / Nickname*" 
                                         TextColor="#B429CC" 
                                         FontAttributes="Bold" 
                                         FontSize="Large" 
                                         WidthRequest="250"></Label>
-                </StackLayout>
+                            </StackLayout>
 
-<<<<<<< HEAD
 
-                <StackLayout Orientation="Horizontal" Padding="0,0,0,10" >
-                    <Entry  x:Name="TxtApelido" 
+
+                            <StackLayout Orientation="Horizontal" Padding="0,0,0,10" >
+                                <Entry  x:Name="TxtApelido" 
                                         TextColor="Violet"
                                         Placeholder="Como deseja ser chamado?"
                                         FontAttributes="Italic" 
                                         PlaceholderColor="Violet" 
                                         ClearButtonVisibility="WhileEditing" 
                                         WidthRequest="250"></Entry>
-                </StackLayout>
-                <StackLayout Padding="0,0,0,0">
-                    <Button Text="Salvar" 
+                            </StackLayout>
+                            <StackLayout Padding="0,0,0,0">
+                                <Button Text="Salvar" 
                                         FontAttributes="Bold" 
                                         FontSize="Large" 
                                         BackgroundColor="DarkOrange" 
@@ -185,19 +185,19 @@
                                         CornerRadius="17" 
                                         x:Name="BtnCadastro"
                                         Clicked="BtnCadastro_Clicked"></Button>
-=======
-                    <StackLayout Orientation="Horizontal" Padding="0,0,0,10" >
-                        <Entry Placeholder="Como deseja ser chamado?"  FontAttributes="Italic" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
-                    </StackLayout>
 
-                    <StackLayout Padding="0,0,0,0">
-                        <Button Text="Salvar" FontAttributes="Bold" FontSize="Large" BackgroundColor="#F29F05" TextColor="Black" CornerRadius="17" Clicked="BtnCadastro_Clicked"></Button>
+                                <StackLayout Orientation="Horizontal" Padding="0,0,0,10" >
+                                    <Entry Placeholder="Como deseja ser chamado?"  FontAttributes="Italic" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="250"></Entry>
+                                </StackLayout>
+
+                                <StackLayout Padding="0,0,0,0">
+                                    <Button Text="Salvar" FontAttributes="Bold" FontSize="Large" BackgroundColor="#F29F05" TextColor="Black" CornerRadius="17" Clicked="BtnCadastro_Clicked"></Button>
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
                     </StackLayout>
->>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2
                 </StackLayout>
             </StackLayout>
-
         </StackLayout>
-    </StackLayout>
-</ContentPage.Content>
+    </ContentPage.Content>
 </ContentPage>

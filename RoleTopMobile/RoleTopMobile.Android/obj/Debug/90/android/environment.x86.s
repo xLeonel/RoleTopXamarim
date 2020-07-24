@@ -67,27 +67,15 @@ mono_aot_mode_name:
 	.type	.L.env.str.7, @object
 .L.env.str.7:
 	.asciz	"XAMARIN_BUILD_ID"
-<<<<<<< HEAD
 	.size	.L.env.str.7, 17
 	.section	.rodata.env.str.8,"aMS",@progbits,1
 	.type	.L.env.str.8, @object
 .L.env.str.8:
-	.asciz	"b11ed02b-caa3-433a-a22e-73d4102eb81a"
+	.asciz	"34c8350c-ebae-4f10-a9b1-ad17ac7d7a8e"
 	.size	.L.env.str.8, 37
 	.section	.rodata.env.str.9,"aMS",@progbits,1
 	.type	.L.env.str.9, @object
 .L.env.str.9:
-=======
-	.size	.L.str.7, 17
-	.section	.rodata..L.str.8,"aMS",@progbits,1
-	.type	.L.str.8, @object
-.L.str.8:
-	.asciz	"3f8f4830-826b-4136-92bc-0fe5bdcffe04"
-	.size	.L.str.8, 37
-	.section	.rodata..L.str.9,"aMS",@progbits,1
-	.type	.L.str.9, @object
-.L.str.9:
->>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2
 	.asciz	"XA_HTTP_CLIENT_HANDLER_TYPE"
 	.size	.L.env.str.9, 28
 	.section	.rodata.env.str.10,"aMS",@progbits,1

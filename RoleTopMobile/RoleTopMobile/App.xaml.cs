@@ -12,7 +12,7 @@ namespace RoleTopMobile
             InitializeComponent();
 
             //MainPage = new Splash();
-            MainPage = new NavigationPage(new BuscaView());
+            MainPage = new NavigationPage(new EstadioEvents());
         }
 
         protected override void OnStart()
