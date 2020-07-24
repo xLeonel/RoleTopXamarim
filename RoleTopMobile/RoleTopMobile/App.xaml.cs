@@ -11,7 +11,8 @@ namespace RoleTopMobile
         {
             InitializeComponent();
 
-            MainPage = new Splash();
+            //MainPage = new Splash();
+            MainPage = new NavigationPage(new BuscaView());
         }
 
         protected override void OnStart()

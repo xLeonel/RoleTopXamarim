@@ -32,9 +32,7 @@ namespace RoleTopMobile.Models
         public int longitude { get; set; }
         public string cidade { get; set; }
         public string uf { get; set; }
-        public object eventoNavigation { get; set; }
-        public ImageSource fotoConvertida { get; set; }
-        
+        public object eventoNavigation { get; set; }     
     }
 }
 

@@ -4,8 +4,12 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "RoleTopMobile.Android.dll" comes first in this list. */
 		"RoleTopMobile.Android.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.Bcl.AsyncInterfaces.dll",
 		"Newtonsoft.Json.dll",
+		"Refit.dll",
 		"RoleTopMobile.dll",
+		"System.Text.Encodings.Web.dll",
+		"System.Text.Json.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

@@ -2056,3 +2056,12 @@ C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Deb
 C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\RefitStubs.g.cs
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\android\assets\Refit.dll
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\android\assets\System.Buffers.dll
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\android\assets\System.Memory.dll
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\android\assets\System.Text.Encodings.Web.dll
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\android\assets\System.Text.Json.dll
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll

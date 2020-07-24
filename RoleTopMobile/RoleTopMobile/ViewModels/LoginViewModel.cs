@@ -11,34 +11,19 @@ using Xamarin.Forms;
 
 namespace RoleTopMobile.ViewModels
 {
-    public class LoginViewModel :BaseViewModel
+    public class LoginViewModel : BaseViewModel
     {
-        public string Email { get; set; }
-        public string Senha { get; set; }
-        public ICommand btnLoginCommand { get; set; }
-
-        public LoginViewModel()
-        {
-            btnLoginCommand = new Command(login);
-        }
-
-        public void login()
+        public bool Login(UsuarioViewModel user)
         {
             try
             {
                 HttpClient client = Utils.getClient;
-
-                Login login = new Login
-                {
-                    Email = this.Email,
-                    Senha = this.Senha
-                };
-
-                string objectSerialized = JsonConvert.SerializeObject(login);
+            
+                string objectSerialized = JsonConvert.SerializeObject(user);
 
                 StringContent content = new StringContent(objectSerialized, Encoding.UTF8, "application/json");
 
-                HttpResponseMessage response = client.PostAsync("usuarios/login", content).Result;
+                HttpResponseMessage response = client.PostAsync("Login", content).Result;
 
                 if (response.StatusCode == HttpStatusCode.OK)
                 {
@@ -46,55 +31,23 @@ namespace RoleTopMobile.ViewModels
 
                     Token token = JsonConvert.DeserializeObject<Token>(json);
                     MessagingCenter.Send<string>("", "SucessoLogin");
+                    return true;
                 }
                 else if (response.StatusCode == HttpStatusCode.NoContent)
                 {
                     MessagingCenter.Send<String>("Usuário não encontrado", "ErroLogin");
+                    return false;
                 }
                 else
                 {
                     MessagingCenter.Send<String>($"Erro no servidor: StatusCode = {response.StatusCode.ToString()}", "ErroLogin");
+                    return false;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessagingCenter.Send<String>("Erro", "ErroLogin");
-            }
-        }
-
-        private bool verifyInputs()
-        {
-            if (!string.IsNullOrEmpty(Email) && Email.Trim().Length >= 3 &&
-                !string.IsNullOrEmpty(Senha) && Senha.Trim().Length >= 3
-                )
-            {
-                return true;
-            }
-
-            return false;
-        }
-        private bool ValidEmail()
-        {
-
-            if (Email.StartsWith("A/Z-a/z") && Email.Contains("@") && Email.EndsWith(".com"))
-            {
-                return true;
-            }
-            return Convert.ToBoolean(EmailBackgroundColor);
-        }
-
-        public Color emailBackgroundColor = Color.Red;
-
-        public Color EmailBackgroundColor
-        {
-            get
-            {
-                return emailBackgroundColor;
-            }
-
-            set
-            {
-                emailBackgroundColor = value;
+                return false;
             }
         }
 

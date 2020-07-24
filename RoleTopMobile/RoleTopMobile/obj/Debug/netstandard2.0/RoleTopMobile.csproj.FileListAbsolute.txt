@@ -11,8 +11,6 @@ C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\nets
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.dll
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\ref\RoleTopMobile.dll
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.pdb
-C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.csproj.CoreCompileInputs.cache
-C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netstandard2.0\RoleTopMobile.deps.json
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netstandard2.0\RoleTopMobile.dll
 C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netstandard2.0\ref\RoleTopMobile.dll
@@ -102,3 +100,8 @@ C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netst
 C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netstandard2.0\ref\RoleTopMobile.dll
 C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\bin\Debug\netstandard2.0\RoleTopMobile.pdb
 C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\BuscaView.xaml.g.cs
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\MenuView.xaml.g.cs
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RefitStubs.g.cs
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\XamlC.stamp

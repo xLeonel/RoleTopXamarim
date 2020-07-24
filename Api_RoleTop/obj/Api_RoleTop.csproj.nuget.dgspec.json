@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Senai\\BCKP\\To copy\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj": {}
+    "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj": {}
   },
   "projects": {
-    "C:\\Senai\\BCKP\\To copy\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj": {
+    "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Senai\\BCKP\\To copy\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
+        "projectUniqueName": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
         "projectName": "Api_RoleTop",
-        "projectPath": "C:\\Senai\\BCKP\\To copy\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
-        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Senai\\BCKP\\To copy\\RoleTopXamarim\\Api_RoleTop\\obj\\",
+        "projectPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\Api_RoleTop.csproj",
+        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vitor\\Desktop\\RoleTopXamarim\\Api_RoleTop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "F:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

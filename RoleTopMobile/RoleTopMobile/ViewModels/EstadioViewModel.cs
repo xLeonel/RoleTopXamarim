@@ -45,11 +45,6 @@ namespace RoleTopMobile.ViewModels
 
                     Estadios = JsonConvert.DeserializeObject<List<Estadio>>(json);
 
-                    foreach (var item in Estadios)
-                    {
-                        item.fotoConvertida =  Utils.getImageSourceFromByteArray(item.foto);
-                    }
-
                 }
 
             }
