@@ -52,7 +52,11 @@ namespace RoleTopMobile.Views
 
         private void pck_SelectedIndexChanged(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             var itemSelecionado = pck.Items[pck.SelectedIndex];        
+=======
+            App.Current.MainPage = new NavigationPage(new EstadioEvents());
+>>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2
         }
     }
 }

@@ -35,8 +35,15 @@ path;obj\Debug\90\res\drawable\baseline_arrow_downward_24.xml
 path;obj\Debug\90\res\drawable\baseline_arrow_forward_24.xml
 path;obj\Debug\90\res\drawable\baseline_arrow_upward_24.xml
 path;obj\Debug\90\res\drawable\baseline_arrow_upward_black.xml
+<<<<<<< HEAD
 paths;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+=======
+path;obj\Debug\90\res\drawable\baseline_explore_24.xml
+path;obj\Debug\90\res\drawable\baseline_map_24.xml
+paths;C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+>>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
 set;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
@@ -55,4 +62,10 @@ vector;obj\Debug\90\res\drawable\baseline_arrow_downward_24.xml
 vector;obj\Debug\90\res\drawable\baseline_arrow_forward_24.xml
 vector;obj\Debug\90\res\drawable\baseline_arrow_upward_24.xml
 vector;obj\Debug\90\res\drawable\baseline_arrow_upward_black.xml
+<<<<<<< HEAD
 xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+=======
+vector;obj\Debug\90\res\drawable\baseline_explore_24.xml
+vector;obj\Debug\90\res\drawable\baseline_map_24.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Senai\BCKP\To copy\RoleTopXamarim\RoleTopMobile\RoleTopMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+>>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2

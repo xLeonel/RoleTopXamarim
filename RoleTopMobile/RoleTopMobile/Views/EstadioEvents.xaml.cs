@@ -28,7 +28,22 @@ namespace RoleTopMobile.Views
 
         void OnClickBack(object sender, EventArgs e)
         {
-            Navigation.PopAsync();
+            Navigation.RemovePage(this);
+        }
+
+        void OnClickExplore(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new BuscaView());
+        }
+
+        void OnClickMaps(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new EstadioEvents());
+        }
+
+        void OnClickArrow(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new MenuView());
         }
     }
 }

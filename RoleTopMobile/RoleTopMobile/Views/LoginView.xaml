@@ -15,10 +15,11 @@
             <StackLayout HorizontalOptions="CenterAndExpand">
 
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="E-mail:" TextColor="#F29F05" FontSize="Large"/>
+                    <Label Text="E-mail:" TextColor="#F25E3D" FontSize="Large"/>
                 </StackLayout>
 
                 <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+<<<<<<< HEAD
                     <Entry 
                              x:Name="TxtEmail"
                                     TextColor="Violet"
@@ -26,13 +27,17 @@
                                     PlaceholderColor="Violet" 
                                     ClearButtonVisibility="WhileEditing"
                                     WidthRequest="300" ></Entry>
+=======
+                    <Entry Placeholder="Insira o email" PlaceholderColor="#F3F1F5" ClearButtonVisibility="WhileEditing" WidthRequest="300" ></Entry>
+>>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Padding="0,10,0,0">
-                    <Label Text="Senha:" TextColor="#F29F05" FontSize="Large"/>
+                    <Label Text="Senha:" TextColor="#F25E3D" FontSize="Large"/>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+<<<<<<< HEAD
                     <Entry 
                             x:Name="TxtSenha"
                                    TextColor="Violet"
@@ -41,6 +46,9 @@
                                    IsPassword="True" 
                                    ClearButtonVisibility="WhileEditing" 
                                    WidthRequest="300"></Entry>
+=======
+                    <Entry Placeholder="Insira a senha" PlaceholderColor="#F3F1F5" IsPassword="True" ClearButtonVisibility="WhileEditing" WidthRequest="300"></Entry>
+>>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2
                 </StackLayout>
 
                 <StackLayout Padding="0,30,0,0">
@@ -48,7 +56,11 @@
                 </StackLayout>
             </StackLayout>
             <StackLayout VerticalOptions="EndAndExpand" Padding="0,0,0,10">
+<<<<<<< HEAD
                 <Button Text="Não tem cadastro? Crie já!"  FontSize="Medium"   TextColor="Violet"   BackgroundColor="Transparent"  Clicked="BtnCadastro_Clicked"></Button>
+=======
+                <Button Text="Não tem cadastro? Crie já!" FontSize="Medium" TextColor="#B429CC" BackgroundColor="Transparent" Clicked="BtnCadastro_Clicked"></Button>
+>>>>>>> 1b010da2b42a2909dcba52fedb6b74edc0ed7ae2
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
