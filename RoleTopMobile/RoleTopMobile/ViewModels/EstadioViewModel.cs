@@ -14,6 +14,9 @@ namespace RoleTopMobile.ViewModels
     {
         private List<Estadio> _estadios;
 
+        private List<Estadio> _estadiosEventos;
+
+
         public List<Estadio> Estadios
         {
             get { return _estadios; }
@@ -24,11 +27,30 @@ namespace RoleTopMobile.ViewModels
             }
         }
 
+        public List<Estadio> EstadiosEventos
+        {
+            get { return _estadiosEventos; }
+            set
+            {
+                _estadiosEventos = value;
+                OnPropertyChanged();
+            }
+        }
+
         public EstadioViewModel()
         {
             Estadios = new List<Estadio>();
-
+  
             getEstadios();
+
+        }
+
+        public EstadioViewModel(int id)
+        {
+            EstadiosEventos = new List<Estadio>();
+
+            getEventos(id);
+
         }
 
         private void getEstadios()
@@ -44,6 +66,34 @@ namespace RoleTopMobile.ViewModels
                     string json = response.Content.ReadAsStringAsync().Result;
 
                     Estadios = JsonConvert.DeserializeObject<List<Estadio>>(json);
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("======================================================================");
+                Console.WriteLine("======================================================================");
+                Console.WriteLine("======================================================================");
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("======================================================================");
+                Console.WriteLine("======================================================================");
+            }
+        }
+
+        private void getEventos(int id)
+        {
+            try
+            {
+                HttpClient client = Utils.getClient;
+
+                HttpResponseMessage response = client.GetAsync($"{id}/eventos").Result;
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string json = response.Content.ReadAsStringAsync().Result;
+
+                    EstadiosEventos = JsonConvert.DeserializeObject<List<Estadio>>(json);
 
                 }
 

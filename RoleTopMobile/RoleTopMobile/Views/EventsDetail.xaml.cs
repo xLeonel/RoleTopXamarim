@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RoleTopMobile.Models;
+using RoleTopMobile.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +14,31 @@ namespace RoleTopMobile.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EventsDetail : ContentPage
     {
+        //private Estadio estadio;
+
+
+
+
+
         public EventsDetail()
         {
             InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
+
+        }
+
+        public EventsDetail(Estadio estadio)
+        {
+            //this.estadio = estadio;
+
+            InitializeComponent();
+
+            EstadioViewModel vm = new EstadioViewModel(estadio.id);
+
+            this.BindingContext = vm;
+
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         void OnClick(object sender, EventArgs e)

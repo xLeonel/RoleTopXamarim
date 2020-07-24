@@ -29,6 +29,12 @@ namespace Api_RoleTop.Controllers
             return _estadioRepository.GetAll();
         }
 
+        [HttpGet("{id}/eventos")]
+        public IEnumerable<Estadio> GetEventos(int id)
+        {
+            return _estadioRepository.PegarEventoEstadio(id);
+        }
+
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {

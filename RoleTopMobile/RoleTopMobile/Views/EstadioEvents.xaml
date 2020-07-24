@@ -24,21 +24,21 @@
             </StackLayout>
 
             <ScrollView Padding="10">
-                <ListView
+                <ListView x:Name="listviewEstadio"
                 ItemsSource="{Binding Estadios}"
-                HasUnevenRows="true"
+                HasUnevenRows="true"                 
                 >
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
+                                <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand" x:Name="indexEstadio">
                                     <Image Source="{Binding imgSourceEstadio}" HeightRequest="250">
                                         <Image.GestureRecognizers>
                                             <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
                                         </Image.GestureRecognizers>
                                     </Image>
 
-                                    <Label Text="{Binding nome}" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                                    <Label  Text="{Binding nome}" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
                                         <Label.GestureRecognizers>
                                             <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
                                         </Label.GestureRecognizers>
