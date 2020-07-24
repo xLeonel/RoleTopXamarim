@@ -24,30 +24,47 @@
             </StackLayout>
 
             <ScrollView Padding="10">
-                <ListView x:Name="listviewEstadio"
-                ItemsSource="{Binding Estadios}"
-                HasUnevenRows="true"                 
-                >
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand" x:Name="indexEstadio">
-                                    <Image Source="{Binding imgSourceEstadio}" HeightRequest="250">
-                                        <Image.GestureRecognizers>
-                                            <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
-                                        </Image.GestureRecognizers>
-                                    </Image>
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
+                        <Image Source="Maracana_2014_e.jpg" HeightRequest="250">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
 
-                                    <Label  Text="{Binding nome}" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
-                                        <Label.GestureRecognizers>
-                                            <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
-                                        </Label.GestureRecognizers>
-                                    </Label>
-                                </StackLayout>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+                        <Label  Text="Maracanã" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                    <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
+                        <Image Source="Maracana_2014_e.jpg" HeightRequest="250">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+
+                        <Label  Text="Maracanã" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                    <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
+                        <Image Source="Maracana_2014_e.jpg" HeightRequest="250">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+
+                        <Label  Text="Maracanã" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
             </ScrollView>
             <StackLayout VerticalOptions="End" HeightRequest="50" BackgroundColor="#F29F05" Orientation="Horizontal" >
                 <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Padding="40, 0, 0, 0">

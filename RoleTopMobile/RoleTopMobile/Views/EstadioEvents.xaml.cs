@@ -27,10 +27,10 @@ namespace RoleTopMobile.Views
         void OnClick(object sender, EventArgs e)
         {
 
-            var obj = listviewEstadio.SelectedItem;
+            //var obj = listviewEstadio.SelectedItem;
 
 
-            Console.WriteLine(obj);
+            //Console.WriteLine(obj);
 
             //foreach (var item in vm.Estadios)
             //{

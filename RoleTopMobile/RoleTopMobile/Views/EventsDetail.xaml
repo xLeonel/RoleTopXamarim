@@ -24,34 +24,25 @@
             </StackLayout>
 
             <ScrollView Padding="10">
-                <ListView
-                ItemsSource="{Binding EstadiosEventos}"
-                HasUnevenRows="true"
-                >
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
-                                <Image Source="{Binding foto}" HeightRequest="250">
-                                    <Image.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
-                                    </Image.GestureRecognizers>
-                                </Image>
-                                <Label Text="{Binding nome}" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
-                                    <Label.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
-                                    </Label.GestureRecognizers>
-                                </Label>
-                                <Label Text="{Binding eventoNavigation.dia}" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
-                                    <Label.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
-                                    </Label.GestureRecognizers>
-                                </Label>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                <StackLayout>
+                    <StackLayout Spacing="20" Padding="0,20,0,0" HorizontalOptions="CenterAndExpand">
+                        <Image Source="Maracana_2014_e.jpg" HeightRequest="250">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClick"  NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="Jogo" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label Text="06/08/2020" FontSize="16" TextColor="#F29F05" HorizontalOptions="CenterAndExpand">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClick"></TapGestureRecognizer>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
             </ScrollView>
             <StackLayout VerticalOptions="End" HeightRequest="50" BackgroundColor="#F29F05" Orientation="Horizontal" >
                 <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Padding="40, 0, 0, 0">
