@@ -105,3 +105,6 @@ C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\nets
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RefitStubs.g.cs
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RoleTopMobile.csproj.CoreCompileInputs.cache
 C:\Users\vitor\Desktop\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\BuscaView.xaml.g.cs
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\Views\MenuView.xaml.g.cs
+C:\Senai\RoleTopXamarim\RoleTopMobile\RoleTopMobile\obj\Debug\netstandard2.0\RefitStubs.g.cs
